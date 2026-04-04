@@ -1,9 +1,10 @@
-import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Alert } from 'react-native';
+import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Alert, Image } from 'react-native';
 import { router } from 'expo-router';
 import { useState } from 'react';
 import QuizOption from '../components/QuizOption';
 import questionsData from '../data/questions.json';
 import { Question } from '../types/quiz';
+import quizImages from '../constants/quizImages';
 
 export default function PreTestScreen() {
   const questions: Question[] = questionsData.pretest;
@@ -62,12 +63,16 @@ export default function PreTestScreen() {
             <Text style={styles.questionText}>
               {question.id}. {question.question}
             </Text>
-            
+            {question.image && quizImages[question.image] && (
+              <Image source={quizImages[question.image]} style={styles.questionImage} resizeMode="contain" />
+            )}
+
             {question.options.map(option => (
               <QuizOption
                 key={option.label}
                 label={option.label}
                 text={option.text}
+                image={option.image ? quizImages[option.image] : undefined}
                 isSelected={answers[question.id] === option.label}
                 onSelect={() => handleSelectOption(question.id, option.label)}
               />
@@ -120,6 +125,11 @@ const styles = StyleSheet.create({
   questionText: {
     fontSize: 18,
     fontWeight: 'bold',
+    marginBottom: 15,
+  },
+  questionImage: {
+    width: '100%',
+    height: 200,
     marginBottom: 15,
   },
   submitButton: {

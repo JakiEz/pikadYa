@@ -1,21 +1,27 @@
-import { TouchableOpacity, Text, StyleSheet, View } from 'react-native';
+import { TouchableOpacity, Text, StyleSheet, View, Image } from 'react-native';
 
 interface QuizOptionProps {
   label: string;
   text: string;
+  image?: any;
   isSelected: boolean;
   onSelect: () => void;
 }
 
-export default function QuizOption({ label, text, isSelected, onSelect }: QuizOptionProps) {
+export default function QuizOption({ label, text, image, isSelected, onSelect }: QuizOptionProps) {
   return (
     <TouchableOpacity style={styles.optionContainer} onPress={onSelect}>
       <View style={[styles.radio, isSelected && styles.radioSelected]}>
         {isSelected && <View style={styles.radioInner} />}
       </View>
-      <Text style={styles.optionText}>
-        {label}. {text}
-      </Text>
+      <View style={styles.optionContent}>
+        {text ? (
+          <Text style={styles.optionText}>{label}. {text}</Text>
+        ) : (
+          <Text style={styles.optionText}>{label}.</Text>
+        )}
+        {image && <Image source={image} style={styles.optionImage} resizeMode="contain" />}
+      </View>
     </TouchableOpacity>
   );
 }
@@ -45,8 +51,15 @@ const styles = StyleSheet.create({
     borderRadius: 6,
     backgroundColor: '#4a7c20',
   },
+  optionContent: {
+    flex: 1,
+  },
   optionText: {
     fontSize: 18,
-    flex: 1,
+  },
+  optionImage: {
+    width: 200,
+    height: 150,
+    marginTop: 8,
   },
 });
