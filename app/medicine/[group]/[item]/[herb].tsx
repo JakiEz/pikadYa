@@ -97,7 +97,7 @@ export default function HerbPage() {
               marginTop: 20,
               alignSelf: "center",
             }}
-            resizeMode="contain"
+            resizeMode="cover"
           />
           <View
             style={{
