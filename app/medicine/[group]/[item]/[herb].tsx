@@ -187,7 +187,6 @@ export default function HerbPage() {
           <View
             style={{
               borderRadius: 32,
-
               shadowColor: "#000",
               shadowOpacity: 0.5,
               shadowRadius: 15,
