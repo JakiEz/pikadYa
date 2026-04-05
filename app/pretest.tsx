@@ -84,10 +84,30 @@ export default function PreTestScreen() {
           <Text style={styles.submitButtonText}>ส่งคำตอบ</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity style={styles.backButton} onPress={() => router.back()}>
-          <Text style={styles.backButtonText}>กลับหน้าหลัก</Text>
-        </TouchableOpacity>
+        
       </ScrollView>
+
+      <TouchableOpacity
+          onPress={() => router.back()}
+          style={{
+            position: "absolute",
+            bottom: 30,
+            left: 20,
+            backgroundColor: "#5a3e1b",
+            paddingVertical: 12,
+            paddingHorizontal: 18,
+            borderRadius: 30,
+            shadowColor: "#000",
+            shadowOpacity: 0.3,
+            shadowRadius: 5,
+            shadowOffset: { width: 0, height: 3 },
+            elevation: 5,
+          }}
+        >
+          <Text style={{ color: "#fff", fontSize: 16, fontWeight: "bold" }}>
+            ← ย้อนกลับ
+          </Text>
+        </TouchableOpacity>
     </View>
   );
 }
