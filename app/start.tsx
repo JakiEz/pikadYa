@@ -4,7 +4,13 @@ import { router } from "expo-router";
 import { StyleSheet, Text, TouchableOpacity } from "react-native";
 
 export default function Startpage() {
-  const groups = ["พิกัดยา 5", "พิกัดยา 7", "พิกัดยา 9", "พิกัดยา 10", "พิกัดยาพิเศษ"];
+  const groups = [
+    "พิกัดยา 5",
+    "พิกัดยา 7",
+    "พิกัดยา 9",
+    "พิกัดยา 10",
+    "พิกัดยาพิเศษ",
+  ];
 
   return (
     <LinearGradient colors={["#f5d742", "#f7e9b3"]} style={styles.container}>
@@ -25,10 +31,22 @@ export default function Startpage() {
 
 const styles = StyleSheet.create({
   container: { flex: 1, justifyContent: "center", alignItems: "center" },
-  title: { fontSize: 64,  fontWeight: "800", marginBottom: 20,color: "#5a3e1b",
+  title: {
+    fontSize: 64,
+    fontWeight: "800",
+    marginBottom: 20,
+    color: "#5a3e1b",
     textShadowColor: "#fff",
     textShadowOffset: { width: 3, height: 3 },
-    textShadowRadius: 3, },
-  button: { padding: 15, backgroundColor: "#eee", borderRadius: 20, marginBottom: 10 ,width: "70%",marginVertical: 15},
-  text: { fontSize: 18 , textAlign: "center" },
+    textShadowRadius: 3,
+  },
+  button: {
+    padding: 15,
+    backgroundColor: "#eee",
+    borderRadius: 20,
+    marginBottom: 10,
+    width: "70%",
+    marginVertical: 15,
+  },
+  text: { fontSize: 18, textAlign: "center" },
 });
