@@ -1,13 +1,13 @@
 //utils/imageMap10.ts
 export const imageMap10: Record<string, any> = {
   // -------- พิกัดทศกุลาผล --------
-  "ลูกผักชีล้อม.jpg": require("@/assets/images/10/พิกัดทศกุลาผล/2.jpg"),
+  "luk_phak_chi_lo.jpg": require("@/assets/images/10/พิกัดทศกุลาผล/luk_phak_chi_lo.jpg"),
   "luk_phak_chi_la.jpg": require("@/assets/images/10/พิกัดทศกุลาผล/luk_phak_chi_la.jpg"),
   "luk_ruea_yai.jpg": require("@/assets/images/10/พิกัดทศกุลาผล/luk_ruea_yai.jpg"),
   "luk_ruea_noi.jpg": require("@/assets/images/10/พิกัดทศกุลาผล/luk_ruea_noi.jpg"),
   "cha_oem_thet.jpg": require("@/assets/images/10/พิกัดทศกุลาผล/cha_oem_thet.jpg"),
-  "ชะเอมไทย.jpg": require("@/assets/images/10/พิกัดทศกุลาผล/1.jpg"),
-  "ลำพัน.jpg": require("@/assets/images/10/พิกัดทศกุลาผล/lam_phan_daeng.jpg"),
+  "cha_oem_thai.jpg": require("@/assets/images/10/พิกัดทศกุลาผล/cha_oem_thai.jpg"),
+  "lam_phan_daeng.jpg": require("@/assets/images/10/พิกัดทศกุลาผล/lam_phan_daeng.jpg"),
   "op_choei_thet.jpg": require("@/assets/images/10/พิกัดทศกุลาผล/op_choei_thet.jpg"),
   "op_choei_thai.jpg": require("@/assets/images/10/พิกัดทศกุลาผล/op_choei_thai.jpg"),
 
