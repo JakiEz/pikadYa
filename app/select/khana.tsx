@@ -1,6 +1,7 @@
+import Frame from "@/components/Frame";
 import { LinearGradient } from "expo-linear-gradient";
 import { router } from "expo-router";
-import React from "react";
+import React, { Fragment } from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
 const items = [
@@ -14,32 +15,55 @@ const descriptionText =
 
 export default function Khana() {
   return (
-    <LinearGradient colors={["#f5d742", "#f7e9b3"]} style={styles.container}>
-      <View style={styles.card}>
-        <Text style={styles.title}>4.คณาเภสัช</Text>
+    <LinearGradient colors={["#FFE082", "#faedb9", "#FFF3C4", "#FFFFFF"]} style={styles.container}>
+      <Frame>
+      <View style={styles.centerContainer}>
+    <View style={styles.card}>
+      <Text style={styles.title}>4.คณาเภสัช</Text>
 
-        <View style={styles.body}>
-          <Text style={styles.description}>{descriptionText}</Text>
+      <View style={styles.body}>
+        <Text style={styles.description}>{descriptionText}</Text>
 
-          {items.map((item) => (
-            <View
-              key={item.id}
-            >
-              <Text style={styles.itemText}>{item.label}</Text>
-            </View>
-          ))}
-        </View>
+        {items.map((item) => (
+          <View key={item.id}>
+            <Text style={styles.itemText}>{item.label}</Text>
+          </View>
+        ))}
       </View>
+    </View>
+  </View>
+       <TouchableOpacity
+          onPress={() => router.back()}
+          style={{
+            position: "absolute",
+            bottom: 30,
+            left: 20,
+            backgroundColor: "#5a3e1b",
+            paddingVertical: 12,
+            paddingHorizontal: 18,
+            borderRadius: 30,
+            shadowColor: "#000",
+            shadowOpacity: 0.3,
+            shadowRadius: 5,
+            shadowOffset: { width: 0, height: 3 },
+            elevation: 5,
+          }}
+        >
+          <Text style={{ color: "#fff", fontSize: 16, fontWeight: "bold" }}>
+            ← ย้อนกลับ
+          </Text>
+        </TouchableOpacity>
+        </Frame>
     </LinearGradient>
   );
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, justifyContent: "center", alignItems: "center" },
+  container: { flex: 1, },
   card: {
     width: "90%",
     borderRadius: 24,
-    backgroundColor: "#f5f0c0",
+    backgroundColor: "#ffe854",
     overflow: "hidden",
   },
   title: {
@@ -47,7 +71,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     textAlign: "center",
     paddingVertical: 16,
-    backgroundColor: "#f5f0c0",
+    backgroundColor: "#ffe854",
   },
   body: {
     backgroundColor: "#4a6741",
@@ -67,5 +91,9 @@ const styles = StyleSheet.create({
     fontSize: 18,
     lineHeight: 30,
   },
-
+  centerContainer: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+  },
 });

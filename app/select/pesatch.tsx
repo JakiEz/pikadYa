@@ -15,7 +15,7 @@ const descriptionText =
 
 export default function Pesatch() {
   return (
-    <LinearGradient colors={["#f5d742", "#f7e9b3"]} style={styles.container}>
+    <LinearGradient colors={["#FFE082", "#faedb9", "#FFF3C4", "#FFFFFF"]} style={styles.container}>
       <View style={styles.card}>
           {/* Left: description */}
           <View style={styles.topPanel}>
@@ -38,6 +38,27 @@ export default function Pesatch() {
             ))}
           </View>
         </View>
+        <TouchableOpacity
+          onPress={() => router.back()}
+          style={{
+            position: "absolute",
+            bottom: 30,
+            left: 20,
+            backgroundColor: "#5a3e1b",
+            paddingVertical: 12,
+            paddingHorizontal: 18,
+            borderRadius: 30,
+            shadowColor: "#000",
+            shadowOpacity: 0.3,
+            shadowRadius: 5,
+            shadowOffset: { width: 0, height: 3 },
+            elevation: 5,
+          }}
+        >
+          <Text style={{ color: "#fff", fontSize: 16, fontWeight: "bold" }}>
+            ← ย้อนกลับ
+          </Text>
+        </TouchableOpacity>
     </LinearGradient>
   );
 }

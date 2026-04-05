@@ -17,7 +17,7 @@ export default function ItemDetail() {
 
   return (
     <LinearGradient
-      colors={["#f5d742", "#f7e9b3"]}
+      colors={["#FFE082", "#faedb9", "#FFF3C4", "#FFFFFF"]}
       style={{ flex: 1, }}
     >
        <Frame>
@@ -71,7 +71,6 @@ export default function ItemDetail() {
             paddingVertical: 12,
             paddingHorizontal: 18,
             borderRadius: 30,
-
             shadowColor: "#000",
             shadowOpacity: 0.3,
             shadowRadius: 5,
@@ -83,6 +82,7 @@ export default function ItemDetail() {
             ← ย้อนกลับ
           </Text>
         </TouchableOpacity>
+        
       </Frame>
     </LinearGradient>
   );

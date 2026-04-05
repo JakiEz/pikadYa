@@ -1,4 +1,5 @@
 //app/pesatch/pesatch.tsx
+import Frame from "@/components/Frame";
 import { LinearGradient } from "expo-linear-gradient";
 import { router } from "expo-router";
 import React from "react";
@@ -6,31 +7,62 @@ import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
 export default function Pesatch() {
   return (
-    <LinearGradient colors={["#f5d742", "#f7e9b3"]} style={styles.container}>
-      <Text style={styles.title}>พิกัดยา</Text>
+    <LinearGradient colors={["#FFE082", "#faedb9", "#FFF3C4", "#FFFFFF"]} style={styles.container}>
+      <Frame>
+        <View style={styles.centerContainer}>
+          <Text style={styles.title}>พิกัดยา</Text>
 
-      <View style={styles.buttonGroup}>
-        <TouchableOpacity
-          style={[styles.button, styles.greenButton]}
-          onPress={() => router.push("/start" as any)}
-        >
-          <Text style={styles.text}>ยา</Text>
-        </TouchableOpacity>
+          <View style={styles.buttonGroup}>
+            <TouchableOpacity
+              style={[styles.button, styles.greenButton]}
+              onPress={() => router.push("/start" as any)}
+            >
+              <Text style={styles.text}>พิกัดยา</Text>
+            </TouchableOpacity>
 
+            <TouchableOpacity
+              style={[styles.button, styles.grayButton]}
+              onPress={() => router.push("/select/pesatch" as any)}
+            >
+              <Text style={styles.text}>หลักเภสัช</Text>
+            </TouchableOpacity>
+          </View>
+        </View>
         <TouchableOpacity
-          style={[styles.button, styles.grayButton]}
-          onPress={() => router.push("/select/pesatch" as any)}
+          onPress={() => router.back()}
+          style={{
+            position: "absolute",
+            bottom: 30,
+            left: 20,
+            backgroundColor: "#5a3e1b",
+            paddingVertical: 12,
+            paddingHorizontal: 18,
+            borderRadius: 30,
+
+            shadowColor: "#000",
+            shadowOpacity: 0.3,
+            shadowRadius: 5,
+            shadowOffset: { width: 0, height: 3 },
+            elevation: 5,
+          }}
         >
-          <Text style={styles.text}>เภสัช</Text>
+          <Text style={{ color: "#fff", fontSize: 16, fontWeight: "bold" }}>
+            ← ย้อนกลับ
+          </Text>
         </TouchableOpacity>
-      </View>
+      </Frame>
     </LinearGradient>
   );
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, justifyContent: "center", alignItems: "center" },
-  title: { fontSize: 64, fontWeight: "bold", marginBottom: 40 },
+  container: { flex: 1 },
+  title: {
+    fontSize: 64,
+    fontWeight: "bold",
+    marginBottom: 20,
+    textAlign: "center",
+  },
   buttonGroup: { width: "100%", alignItems: "center", gap: 20 },
   button: {
     width: "70%",
@@ -46,4 +78,10 @@ const styles = StyleSheet.create({
   greenButton: { backgroundColor: "#8bd969" },
   grayButton: { backgroundColor: "#d4d4d4" },
   text: { fontSize: 28, fontWeight: "bold" },
+
+  centerContainer: {
+    flex: 1,
+    justifyContent: "center", // แนวตั้ง
+    alignItems: "center", // แนวนอน
+  },
 });

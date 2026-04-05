@@ -1,3 +1,4 @@
+import Frame from "@/components/Frame";
 import { LinearGradient } from "expo-linear-gradient";
 import { router } from "expo-router";
 import React from "react";
@@ -22,27 +23,52 @@ const descriptionText =
 export default function Sappakhun() {
   return (
     <LinearGradient colors={["#8a9e5a", "#b5c27a"]} style={styles.container}>
-      <Text style={styles.title}>2.สรรพคุณเภสัช</Text>
-
-      {/* Description card */}
-      <View style={styles.descCard}>
-        <Text style={styles.description}>{descriptionText}</Text>
-      </View>
-
-      {/* Two columns */}
-      <View style={styles.row}>
-        {items.map((item) => (
-          <View key={item.label} style={styles.column}>
-            <Image source={item.image} style={styles.image} resizeMode="contain" />
-
-            <View
-              style={styles.button}
-            >
-              <Text style={styles.buttonText}>{item.label}</Text>
-            </View>
+      <Frame>
+        <View style={styles.centerContainer}>
+          <Text style={styles.title}>2.สรรพคุณเภสัช</Text>
+          <View style={styles.descCard}>
+            <Text style={styles.description}>{descriptionText}</Text>
           </View>
-        ))}
-      </View>
+          <View style={styles.row}>
+            
+            {items.map((item) => (
+              <View key={item.label} style={styles.column}>
+                
+                <Image
+                  source={item.image}
+                  style={styles.image}
+                  resizeMode="contain"
+                />
+                <View style={styles.button}>
+                  
+                  <Text style={styles.buttonText}>{item.label}</Text>
+                </View>
+              </View>
+            ))}
+          </View>
+        </View>
+        <TouchableOpacity
+          onPress={() => router.back()}
+          style={{
+            position: "absolute",
+            bottom: 30,
+            left: 20,
+            backgroundColor: "#5a3e1b",
+            paddingVertical: 12,
+            paddingHorizontal: 18,
+            borderRadius: 30,
+            shadowColor: "#000",
+            shadowOpacity: 0.3,
+            shadowRadius: 5,
+            shadowOffset: { width: 0, height: 3 },
+            elevation: 5,
+          }}
+        >
+          <Text style={{ color: "#fff", fontSize: 16, fontWeight: "bold" }}>
+            ← ย้อนกลับ
+          </Text>
+        </TouchableOpacity>
+      </Frame>
     </LinearGradient>
   );
 }
@@ -50,9 +76,7 @@ export default function Sappakhun() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
-    padding: 24,
+
     gap: 20,
   },
   title: {
@@ -62,10 +86,17 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   descCard: {
-    width: "100%",
+    width: "95%",
     backgroundColor: "#4a6741",
     borderRadius: 20,
     padding: 24,
+  },
+  centerContainer: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    width: "100%",
+    gap: 20,
   },
   description: {
     color: "#fff",
@@ -75,7 +106,7 @@ const styles = StyleSheet.create({
   },
   row: {
     flexDirection: "row",
-    width: "100%",
+    width: "90%",
     gap: 16,
   },
   column: {
