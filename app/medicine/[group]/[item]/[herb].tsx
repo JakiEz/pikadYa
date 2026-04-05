@@ -11,7 +11,7 @@ import Frame from "@/components/Frame";
 // 1. Define the shape of your data
 interface Herb {
   name: string;
-  image: string;
+  image: string | string[];
   detail: string;
 }
 
@@ -47,7 +47,6 @@ export default function HerbPage() {
 
   const herbs = groupData[item] || [];
   const herbData = herbs.find((h) => h.name === herb);
-  const imageSource = herbData ? imageMap[herbData.image] : null;
 
   // 5. Handle "Not Found" state
   if (!herbData) {
@@ -66,6 +65,9 @@ export default function HerbPage() {
       </View>
     );
   }
+  const images = Array.isArray(herbData.image)
+    ? herbData.image
+    : [herbData.image];
 
   return (
     <LinearGradient
@@ -109,17 +111,78 @@ export default function HerbPage() {
               elevation: 8, // Android
             }}
           >
-            <Image
-              source={imageSource || require("@/assets/images/react-logo.png")}
-              style={{
-                width: 350,
-                height: 350,
-                borderRadius: 20,
-                marginTop: 20,
-                alignSelf: "center",
-              }}
-              resizeMode="cover"
-            />
+            {images.length > 1 ? (
+              <View style={{ alignItems: "center" }}>
+                {/* 🔥 แถวบน (2 รูปแรก) */}
+                <View
+                  style={{ flexDirection: "row", justifyContent: "center" }}
+                >
+                  {images.slice(0, 2).map((img, index) => (
+                    <View
+                      key={index}
+                      style={{ alignItems: "center", margin: 5 }}
+                    >
+                      <Image
+                        source={imageMap[img]}
+                        style={{
+                          width: 160,
+                          height: 160,
+                          borderRadius: 15,
+                        }}
+                      />
+                      <Text  style={{
+              fontSize: 17,
+              fontWeight: "800",
+              textAlign: "center",
+              color: "#5a3e1b",
+              textShadowColor: "#fff",
+              textShadowOffset: { width: 1, height: 1 },
+              textShadowRadius: 3,
+            }}>
+                        {img.replace(".jpg", "").replace(".png", "")}
+                      </Text>
+                    </View>
+                  ))}
+                </View>
+
+                {/* 🔥 แถวล่าง (รูปที่ 3) */}
+                {images[2] && (
+                  <View style={{ alignItems: "center", marginTop: 10 }}>
+                    <Image
+                      source={imageMap[images[2]]}
+                      style={{
+                        width: 200,
+                        height: 200,
+                        borderRadius: 15,
+                      }}
+                    />
+                 <Text  style={{
+              fontSize: 17,
+              fontWeight: "800",
+              textAlign: "center",
+              color: "#5a3e1b",
+              textShadowColor: "#fff",
+              textShadowOffset: { width: 1, height: 1 },
+              textShadowRadius: 3,
+            }}>
+                      {images[2].replace(".jpg", "").replace(".png", "")}
+                    </Text>
+                  </View>
+                )}
+              </View>
+            ) : (
+              // 🔥 กรณีมีรูปเดียว (fallback)
+              <Image
+                source={imageMap[images[0]]}
+                style={{
+                  width: 350,
+                  height: 350,
+                  borderRadius: 20,
+                  marginTop: 20,
+                  alignSelf: "center",
+                }}
+              />
+            )}
           </View>
           <View
             style={{
