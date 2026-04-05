@@ -23,14 +23,12 @@ type MenuRowProps = {
   color: "gray" | "green";
 };
 
-
 export default function HomeScreen() {
   const insets = useSafeAreaInsets();
   return (
-    
     <LinearGradient colors={["#f5d742", "#f7e9b3"]} style={styles.container}>
       <Frame>
-      <ScrollView
+        <ScrollView
           style={{ flex: 1 }}
           contentContainerStyle={{
             padding: 20,
@@ -39,30 +37,30 @@ export default function HomeScreen() {
             paddingBottom: insets.bottom + 20,
           }}
         >
-      <Text style={styles.title}>พิกัดยา</Text>
+          <Text style={styles.title}>พิกัดยา</Text>
 
-      <MenuRow
-        label="Pre-test"
-        path="/pretest"
-        leftIcon={require("../assets/home/pretest.png")}
-        color="gray"
-      />
+          <MenuRow
+            label="Pre-test"
+            path="/pretest"
+            leftIcon={require("../assets/home/pretest.png")}
+            color="gray"
+          />
 
-      <MenuRow
-        label="Start"
-        path="/select/selectpage"
-        leftIcon={require("../assets/home/herb.png")}
-        rightIcon={require("../assets/home/click.png")}
-        color="green"
-      />
+          <MenuRow
+            label="Start"
+            path="/select/selectpage"
+            leftIcon={require("../assets/home/herb.png")}
+            rightIcon={require("../assets/home/click.png")}
+            color="green"
+          />
 
-      <MenuRow
-        label="Post-test"
-        path="/posttest"
-        leftIcon={require("../assets/home/pretest.png")}
-        color="gray"
-      />
-      </ScrollView>
+          <MenuRow
+            label="Post-test"
+            path="/posttest"
+            leftIcon={require("../assets/home/pretest.png")}
+            color="gray"
+          />
+        </ScrollView>
       </Frame>
     </LinearGradient>
   );
@@ -114,10 +112,7 @@ function MenuRow({ label, path, leftIcon, rightIcon, color }: MenuRowProps) {
       {/* Left icon animation */}
       <Animated.Image
         source={leftIcon}
-        style={[
-          styles.leftIcon,
-          { transform: [{ rotate: tiltRotation }] }
-        ]}
+        style={[styles.leftIcon, { transform: [{ rotate: tiltRotation }] }]}
       />
 
       {/* Button */}
@@ -154,7 +149,11 @@ const styles = StyleSheet.create({
     fontWeight: "800",
     marginBottom: 40,
     alignContent: "center",
-    textAlign: "center"
+    textAlign: "center",
+    color: "#5a3e1b",
+    textShadowColor: "#fff",
+    textShadowOffset: { width: 3, height: 3 },
+    textShadowRadius: 3,
   },
 
   row: {
