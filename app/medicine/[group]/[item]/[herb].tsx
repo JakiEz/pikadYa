@@ -1,12 +1,12 @@
 //app/medicine/[group]/[item]/[herb].tsx
-import { LinearGradient } from "expo-linear-gradient";
-import { useLocalSearchParams, router } from "expo-router";
-import { ImageBackground } from "react-native";
+import Frame from "@/components/Frame";
 import { imageMap } from "@/utils/imageMap";
-import { ScrollView, Text, View, TouchableOpacity, Image } from "react-native";
+import { nameMap } from "@/utils/nameMap";
+import { LinearGradient } from "expo-linear-gradient";
+import { router, useLocalSearchParams } from "expo-router";
+import { Image, ScrollView, Text, TouchableOpacity, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import data from "../../../../data/medicine.json";
-import Frame from "@/components/Frame";
 
 // 1. Define the shape of your data
 interface Herb {
@@ -139,7 +139,7 @@ export default function HerbPage() {
               textShadowOffset: { width: 1, height: 1 },
               textShadowRadius: 3,
             }}>
-                        {img.replace(".jpg", "").replace(".png", "")}
+                        {nameMap[img] || img}
                       </Text>
                     </View>
                   ))}
@@ -165,7 +165,7 @@ export default function HerbPage() {
               textShadowOffset: { width: 1, height: 1 },
               textShadowRadius: 3,
             }}>
-                      {images[2].replace(".jpg", "").replace(".png", "")}
+                      {nameMap[images[2]] || images[2]}ื
                     </Text>
                   </View>
                 )}

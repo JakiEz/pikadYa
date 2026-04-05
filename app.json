@@ -2,7 +2,7 @@
   "expo": {
     "name": "pikadYa",
     "slug": "pikadYa",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "pikadya",
@@ -49,7 +49,7 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "ea730fd6-4433-4486-8abd-86a362c28762"
+        "projectId": "7842473c-47e0-4900-9c78-642480a4c360"
       }
     }
   }
