@@ -50,7 +50,7 @@ export default function HomeScreen() {
 
       <MenuRow
         label="Start"
-        path="/start"
+        path="/select/selectpage"
         leftIcon={require("../assets/home/herb.png")}
         rightIcon={require("../assets/home/click.png")}
         color="green"
