@@ -1,12 +1,12 @@
 //utils/imageMap10.ts
 export const imageMap10: Record<string, any> = {
   // -------- พิกัดทศกุลาผล --------
-  "ลูกผักชีล้อม.jpg": require("@/assets/images/10/พิกัดทศกุลาผล/2.jpg"),
+  "ลูกผักชีล้อม.jpg": require("@/assets/images/10/พิกัดทศกุลาผล/ลูกผักชีล้อม.jpg"),
   "ลูกผักชีลา.jpg": require("@/assets/images/10/พิกัดทศกุลาผล/ลูกผักชีลา.jpg"),
   "ลูกเร่วใหญ่.jpg": require("@/assets/images/10/พิกัดทศกุลาผล/ลูกเร่วใหญ่.jpg"),
   "ลูกเร่วน้อย.jpg": require("@/assets/images/10/พิกัดทศกุลาผล/ลูกเร่วน้อย.jpg"),
   "ชะเอมเทศ.jpg": require("@/assets/images/10/พิกัดทศกุลาผล/ชะเอมเทศ.jpg"),
-  "ชะเอมไทย.jpg": require("@/assets/images/10/พิกัดทศกุลาผล/1.jpg"),
+  "ชะเอมไทย.jpg": require("@/assets/images/10/พิกัดทศกุลาผล/ชะเอมไทย.jpg"),
   "ลำพัน.jpg": require("@/assets/images/10/พิกัดทศกุลาผล/ลำพันแดง.jpg"),
   "อบเชยเทศ.jpg": require("@/assets/images/10/พิกัดทศกุลาผล/อบเชยเทศ.jpg"),
   "อบเชยไทย.jpg": require("@/assets/images/10/พิกัดทศกุลาผล/อบเชยไทย.jpg"),
