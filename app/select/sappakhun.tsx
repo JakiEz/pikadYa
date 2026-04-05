@@ -35,12 +35,11 @@ export default function Sappakhun() {
           <View key={item.label} style={styles.column}>
             <Image source={item.image} style={styles.image} resizeMode="contain" />
 
-            <TouchableOpacity
+            <View
               style={styles.button}
-              onPress={() => router.push(item.path as any)}
             >
               <Text style={styles.buttonText}>{item.label}</Text>
-            </TouchableOpacity>
+            </View>
           </View>
         ))}
       </View>

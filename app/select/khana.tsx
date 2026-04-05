@@ -22,12 +22,11 @@ export default function Khana() {
           <Text style={styles.description}>{descriptionText}</Text>
 
           {items.map((item) => (
-            <TouchableOpacity
+            <View
               key={item.id}
-              onPress={() => router.push(item.path as any)}
             >
               <Text style={styles.itemText}>{item.label}</Text>
-            </TouchableOpacity>
+            </View>
           ))}
         </View>
       </View>
@@ -68,4 +67,5 @@ const styles = StyleSheet.create({
     fontSize: 18,
     lineHeight: 30,
   },
+
 });

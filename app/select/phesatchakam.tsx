@@ -28,13 +28,12 @@ export default function Phesatchakam() {
       {/* Items row */}
       <View style={styles.itemsRow}>
         {items.map((item) => (
-          <TouchableOpacity
+          <View
             key={item.id}
             style={styles.item}
-            onPress={() => router.push(item.path as any)}
           >
             <Text style={styles.itemText}>{item.label}</Text>
-          </TouchableOpacity>
+          </View>
         ))}
       </View>
     </LinearGradient>
