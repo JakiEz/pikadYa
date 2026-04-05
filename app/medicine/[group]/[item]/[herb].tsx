@@ -69,7 +69,7 @@ export default function HerbPage() {
 
   return (
     <LinearGradient
-      colors={["#FFE082","#faedb9" ,"#FFF3C4", "#FFFFFF"]}
+      colors={["#FFE082", "#faedb9", "#FFF3C4", "#FFFFFF"]}
       style={{ flex: 1 }}
     >
       <Frame>
@@ -96,54 +96,82 @@ export default function HerbPage() {
             {item}
           </Text>
           {/* Image placeholder */}
-
-          <Image
-            source={imageSource || require("@/assets/images/")}
+          <View
             style={{
-              width: 350,
-              height: 350,
-              borderRadius: 20,
-              marginTop: 20,
-              alignSelf: "center",
-            }}
-            resizeMode="cover"
-          />
-          <LinearGradient
-            colors={["#FFE0B2", "#FFE0B2"]}
-            start={{ x: 0, y: 0 }}
-            end={{ x: 1, y: 1 }}
-            style={{
-              marginTop: 25,
               borderRadius: 30,
-              padding: 22,
 
+              // 🔥 Shadow ตัวจริง
               shadowColor: "#000",
               shadowOpacity: 0.1,
               shadowRadius: 15,
               shadowOffset: { width: 0, height: 10 },
-              elevation: 6,
+
+              elevation: 8, // Android
             }}
           >
-            <Text style={{ fontSize: 22, color: "#333" }}>
-              <Text style={{ fontWeight: "900", color: "#5a3e1b" }}>
-              🌿ชื่อ:{" "}
-              </Text>
-              {herbData.name}
-            </Text>
-            <Text
+            <Image
+              source={imageSource || require("@/assets/images/react-logo.png")}
               style={{
-                marginTop: 10,
-                fontSize: 22,
-                lineHeight: 28,
-                color: "#333",
+                width: 350,
+                height: 350,
+                borderRadius: 20,
+                marginTop: 20,
+                alignSelf: "center",
+              }}
+              resizeMode="cover"
+            />
+          </View>
+          <View
+            style={{
+              borderRadius: 32,
+
+              shadowColor: "#000",
+              shadowOpacity: 0.5,
+              shadowRadius: 15,
+              shadowOffset: { width: 0, height: 10 },
+              elevation: 8,
+            }}
+          >
+            {/* 🔥 กรอบ */}
+            <LinearGradient
+              colors={["#FFB74D", "#FFD54F", "#FFE082"]}
+              style={{
+                borderRadius: 32,
+                padding: 3, // ความหนากรอบ
+                marginTop: 25,
               }}
             >
-              <Text style={{ fontWeight: "bold", color: "#5a3e1b" }}>
-              🌿สรรพคุณ:
-              </Text>{" "}
-              {herbData.detail || "ยังไม่มีรายละเอียด"}
-            </Text>
-          </LinearGradient>
+              {/* 🔥 ตัวกล่องจริง */}
+              <LinearGradient
+                colors={["#FFE0B2", "#FFF3E0"]}
+                style={{
+                  borderRadius: 28,
+                  padding: 22,
+                }}
+              >
+                <Text style={{ fontSize: 22, color: "#333" }}>
+                  <Text style={{ fontWeight: "900", color: "#5a3e1b" }}>
+                    🌿ชื่อ:{" "}
+                  </Text>
+                  {herbData.name}
+                </Text>
+
+                <Text
+                  style={{
+                    marginTop: 10,
+                    fontSize: 22,
+                    lineHeight: 28,
+                    color: "#333",
+                  }}
+                >
+                  <Text style={{ fontWeight: "bold", color: "#5a3e1b" }}>
+                    🌿สรรพคุณ:
+                  </Text>{" "}
+                  {herbData.detail || "ยังไม่มีรายละเอียด"}
+                </Text>
+              </LinearGradient>
+            </LinearGradient>
+          </View>
         </ScrollView>
         <TouchableOpacity
           onPress={() => router.back()}

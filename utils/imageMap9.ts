@@ -42,6 +42,27 @@ export const imageMap9: Record<string, any> = {
   "โกฐก้านพร้าว.jpg": require("@/assets/images/9/พิกัดเนาวโกฐ/โกฐก้านพร้าว.jpg"),
   "โกฐกระดูก.jpg": require("@/assets/images/9/พิกัดเนาวโกฐ/โกฐกระดูก.jpg"),
   "โกฐพุงปลา.jpg": require("@/assets/images/9/พิกัดเนาวโกฐ/โกฐพุงปลา.jpg"),
-  "โกฐจุฬามังสี.jpg": require("@/assets/images/9/พิกัดเนาวโกฐ/โกฐจุฬามังสี.jpg")
+  "โกฐจุฬามังสี.jpg": require("@/assets/images/9/พิกัดเนาวโกฐ/โกฐจุฬามังสี.jpg"),
+//พิกัดเนาวโลหะ
+  "ทองกวาว.jpg": require("@/assets/images/9/พิกัดเนาวโลหะ/ทองกวาว.jpg"),
+  "ทองหลางหนาม.jpg": require("@/assets/images/9/พิกัดเนาวโลหะ/ทองหลางหนาม.jpg"),
+  "ทองหลางใบมน.jpg": require("@/assets/images/9/พิกัดเนาวโลหะ/ทองหลางใบมน.jpg"),
+  "ทองโหลง.jpg": require("@/assets/images/9/พิกัดเนาวโลหะ/ทองโหลง.jpg"),
+  "ทองพันชั่ง.jpg": require("@/assets/images/9/พิกัดเนาวโลหะ/ทองพันชั่ง.jpg"),
+  "เนื้อไม้ขันทองพยาบาท.jpg": require("@/assets/images/9/พิกัดเนาวโลหะ/เนื้อไม้ขันทองพยาบาท.jpg"),
+  "ต้นใบทอง.jpg": require("@/assets/images/9/พิกัดเนาวโลหะ/ต้นใบทอง.jpg"),
+  "รากทองเครือ.jpg": require("@/assets/images/9/พิกัดเนาวโลหะ/รากทองเครือ.jpg"),
+  "จำปาทอง.jpg": require("@/assets/images/9/พิกัดเนาวโลหะ/จำปาทอง.jpg"),
+
+  //พิกัดเนาวเทียน
+  "เทียนดำ.jpg": require("@/assets/images/9/พิกัดเนาวเทียน/เทียนดำ.jpg"),
+  "เทียนแดง.jpg": require("@/assets/images/9/พิกัดเนาวเทียน/เทียนแดง.jpg"),
+  "เทียนขาว.jpg": require("@/assets/images/9/พิกัดเนาวเทียน/เทียนขาว.jpg"),
+  "เทียนข้าวเปลือก.jpg": require("@/assets/images/9/พิกัดเนาวเทียน/เทียนข้าวเปลือก.jpg"),
+  "เทียนตาตั๊กแตน.jpg": require("@/assets/images/9/พิกัดเนาวเทียน/เทียนตาตั๊กแตน.jpg"),
+  "เทียนสัตตบุษย์.jpg": require("@/assets/images/9/พิกัดเนาวเทียน/เทียนสัตตบุษย์.jpg"),
+  "เทียนเยาวพาณี.jpg": require("@/assets/images/9/พิกัดเนาวเทียน/เทียนเยาวพาณี.jpg"),
+  "เทียนตากบ.jpg": require("@/assets/images/9/พิกัดเนาวเทียน/เทียนตากบ.jpg"),
+  "เทียนเกล็ดหอย.jpg": require("@/assets/images/9/พิกัดเนาวเทียน/เทียนเกล็ดหอย.jpg")
 
 };
