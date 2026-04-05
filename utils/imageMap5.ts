@@ -7,15 +7,6 @@ export const imageMap5: Record<string, any> = {
   "rak_chet_mun_phloeng_daeng.jpg": require("@/assets/images/5/พิกัดเบญจกูล/rak_chet_mun_phloeng_daeng.jpg"),
   "ngao_khing_haeng.jpg": require("@/assets/images/5/พิกัดเบญจกูล/ngao_khing_haeng.jpg"),
 
-  // -------- พิกัดเบญจอมฤต --------
-  // Files: LINE_ALBUM_พิกัดเบญจอมฤต_260405_1..5.jpg
-  // TODO: map nam_nom_sod.png, nam_nom_som.png, nam_aoi.png, nam_phueng.png, nam_man_noei.png
-  // "nam_nom_sod.png": require("@/assets/images/5/พิกัดเบญจอมฤต/LINE_ALBUM_พิกัดเบญจอมฤต_260405_1.jpg"),
-  // "nam_nom_som.png": require("@/assets/images/5/พิกัดเบญจอมฤต/LINE_ALBUM_พิกัดเบญจอมฤต_260405_2.jpg"),
-  // "nam_aoi.png": require("@/assets/images/5/พิกัดเบญจอมฤต/LINE_ALBUM_พิกัดเบญจอมฤต_260405_3.jpg"),
-  // "nam_phueng.png": require("@/assets/images/5/พิกัดเบญจอมฤต/LINE_ALBUM_พิกัดเบญจอมฤต_260405_4.jpg"),
-  // "nam_man_noei.png": require("@/assets/images/5/พิกัดเบญจอมฤต/LINE_ALBUM_พิกัดเบญจอมฤต_260405_5.jpg"),
-
   // -------- พิกัดเบญจผลธาตุ --------
   "hua_kok_lang_ka.jpg": require("@/assets/images/5/พิกัดเบญผลธาตุ/hua_kok_lang_ka.jpg"),
   "hua_tao_kiat.jpg": require("@/assets/images/5/พิกัดเบญผลธาตุ/hua_tao_kiat.jpg"),
@@ -24,13 +15,18 @@ export const imageMap5: Record<string, any> = {
   "hua_pro.jpg": require("@/assets/images/5/พิกัดเบญผลธาตุ/hua_pro.jpg"),
 
   // -------- พิกัดเบญจมูลใหญ่ (พิกัด5ราก) --------
-  // Files: LINE_ALBUM_พิกัด 5 ราก_260405_1..5.jpg
-  // TODO: map rak_ma_tum.png, rak_lam_yai.png, rak_phe_ka.png, rak_khae_trae.png, rak_khat_lin.png
-  // "rak_ma_tum.png": require("@/assets/images/5/พิกัด5ราก/LINE_ALBUM_พิกัด 5 ราก_260405_1.jpg"),
-  // "rak_lam_yai.png": require("@/assets/images/5/พิกัด5ราก/LINE_ALBUM_พิกัด 5 ราก_260405_2.jpg"),
-  // "rak_phe_ka.png": require("@/assets/images/5/พิกัด5ราก/LINE_ALBUM_พิกัด 5 ราก_260405_3.jpg"),
-  // "rak_khae_trae.png": require("@/assets/images/5/พิกัด5ราก/LINE_ALBUM_พิกัด 5 ราก_260405_4.jpg"),
-  // "rak_khat_lin.png": require("@/assets/images/5/พิกัด5ราก/LINE_ALBUM_พิกัด 5 ราก_260405_5.jpg"),
+  "rak_ma_tum.jpg": require("@/assets/images/5/พิกัดเบญจมูลใหญ่/rak_ma_tum.jpg"),
+  "rak_lam_yai.jpg": require("@/assets/images/5/พิกัดเบญจมูลใหญ่/rak_lam_yai.jpg"),
+  "rak_phe_ka.jpg": require("@/assets/images/5/พิกัดเบญจมูลใหญ่/rak_phe_ka.jpg"),
+  "rak_khae_trae.jpg": require("@/assets/images/5/พิกัดเบญจมูลใหญ่/rak_khae_trae.jpg"),
+  "rak_khat_lin.jpg": require("@/assets/images/5/พิกัดเบญจมูลใหญ่/rak_khat_lin.jpg"),
+
+  // -------- พิกัดเบญจมูลน้อย --------
+  "ya_klet_hoi_yai.jpg": require("@/assets/images/5/พิกัดเบญจมูลน้อย/ya_klet_hoi_yai.jpg"),
+  "ya_klet_hoi_lek.jpg": require("@/assets/images/5/พิกัดเบญจมูลน้อย/ya_klet_hoi_lek.jpg"),
+  "rak_la_hung_daeng.jpg": require("@/assets/images/5/พิกัดเบญจมูลน้อย/rak_la_hung_daeng.jpg"),
+  "rak_ma_khuea_khuen.jpg": require("@/assets/images/5/พิกัดเบญจมูลน้อย/rak_ma_khuea_khuen.jpg"),
+  "rak_ma_oek.jpg": require("@/assets/images/5/พิกัดเบญจมูลน้อย/rak_ma_oek.jpg"),
 
   // -------- พิกัดเบญจโลธิกะ --------
   // Files: LINE_ALBUM_พิกัดเบญจโลทิกะ_260405_1..5.jpg (folder: พิกัดเบญจโลทิกะ)
@@ -42,10 +38,8 @@ export const imageMap5: Record<string, any> = {
   // "ton_ma_ha_sa_dam.png": require("@/assets/images/5/พิกัดเบญจโลทิกะ/LINE_ALBUM_พิกัดเบญจโลทิกะ_260405_5.jpg"),
 
   // -------- พิกัดจันทน์ทั้ง 5 --------
-  // Files: LINE_ALBUM_จันทน์ทั้ง5_260405_1..5.jpg (folder: จันทน์ทั้ง5)
-  // TODO: map kaen_chan_thet.png, chan_tha_na.png (and confirm ordering with kaen_chan_daeng/khao/chamot)
-  // "kaen_chan_thet.png": require("@/assets/images/5/จันทน์ทั้ง5/LINE_ALBUM_จันทน์ทั้ง5_260405_3.jpg"),
-  // "chan_tha_na.png": require("@/assets/images/5/จันทน์ทั้ง5/LINE_ALBUM_จันทน์ทั้ง5_260405_4.jpg"),
+  "kaen_chan_thet.jpg": require("@/assets/images/5/พิกัดจันทน์ทั้ง 5/kaen_chan_thet.jpg"),
+  "kaen_chan_tha_na.jpg": require("@/assets/images/5/พิกัดจันทน์ทั้ง 5/kaen_chan_tha_na.jpg"),
 
   //-------- พิกัดเกลือ 5 --------
   "kluea_sa_mut.jpg": require("@/assets/images/5/พิกัดเกลือทั้ง5/kluea_sa_mut.jpg"),
@@ -60,4 +54,18 @@ export const imageMap5: Record<string, any> = {
   "nam_aoi.jpg": require("@/assets/images/5/พิกัดเบญจอมฤต/nam_aoi.jpg"),
   "nam_phueng.jpg": require("@/assets/images/5/พิกัดเบญจอมฤต/nam_phueng.jpg"),
   "nam_man_noei.jpg": require("@/assets/images/5/พิกัดเบญจอมฤต/nam_man_noei.jpg"),
+
+  // -------- พิกัดเบญจโลกวิเชียร --------
+  "rak_ching_chi.jpg": require("@/assets/images/5/พิกัดเบญจโลกวิเชียร/rak_ching_chi.jpg"),
+  "rak_ya_nang.jpg": require("@/assets/images/5/พิกัดเบญจโลกวิเชียร/rak_ya_nang.jpg"),
+  "rak_thao_yai_mom.jpg": require("@/assets/images/5/พิกัดเบญจโลกวิเชียร/rak_thao_yai_mom.jpg"),
+  "rak_khon_tha.jpg": require("@/assets/images/5/พิกัดเบญจโลกวิเชียร/rak_khon_tha.jpg"),
+  "rak_ma_duea_chumphon.jpg": require("@/assets/images/5/พิกัดเบญจโลกวิเชียร/rak_ma_duea_chumphon.jpg"),
+
+  // -------- พิกัดเบญจโลธิกะ --------
+  "kaen_chan_daeng.jpg": require("@/assets/images/5/พิกัดเบญจโลธิกะ/kaen_chan_daeng.jpg"),
+  "kaen_chan_khao.jpg": require("@/assets/images/5/พิกัดเบญจโลธิกะ/kaen_chan_khao.jpg"),
+  "kaen_chan_chamot.jpg": require("@/assets/images/5/พิกัดเบญจโลธิกะ/kaen_chan_chamot.jpg"),
+  "ton_ne_ra_phu_si.jpg": require("@/assets/images/5/พิกัดเบญจโลธิกะ/ton_ne_ra_phu_si.jpg"),
+  "ton_ma_ha_sa_dam.jpg": require("@/assets/images/5/พิกัดเบญจโลธิกะ/ton_ma_ha_sa_dam.jpg"),
 };
