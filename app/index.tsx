@@ -1,4 +1,5 @@
 //app/index.tsx
+import Frame from "@/components/Frame";
 import { LinearGradient } from "expo-linear-gradient";
 import { router } from "expo-router";
 import React, { useEffect, useRef } from "react";
@@ -6,11 +7,13 @@ import {
   Animated,
   Image,
   ImageSourcePropType,
+  ScrollView,
   StyleSheet,
   Text,
   TouchableWithoutFeedback,
   View,
 } from "react-native";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 type MenuRowProps = {
   label: string;
@@ -20,9 +23,22 @@ type MenuRowProps = {
   color: "gray" | "green";
 };
 
+
 export default function HomeScreen() {
+  const insets = useSafeAreaInsets();
   return (
+    
     <LinearGradient colors={["#f5d742", "#f7e9b3"]} style={styles.container}>
+      <Frame>
+      <ScrollView
+          style={{ flex: 1 }}
+          contentContainerStyle={{
+            padding: 20,
+            // 6. Apply safe area insets via padding
+            paddingTop: insets.top + 60,
+            paddingBottom: insets.bottom + 20,
+          }}
+        >
       <Text style={styles.title}>พิกัดยา</Text>
 
       <MenuRow
@@ -46,6 +62,8 @@ export default function HomeScreen() {
         leftIcon={require("../assets/home/pretest.png")}
         color="gray"
       />
+      </ScrollView>
+      </Frame>
     </LinearGradient>
   );
 }
@@ -136,6 +154,7 @@ const styles = StyleSheet.create({
     fontWeight: "800",
     marginBottom: 40,
     alignContent: "center",
+    textAlign: "center"
   },
 
   row: {
