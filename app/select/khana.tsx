@@ -1,7 +1,7 @@
 import Frame from "@/components/Frame";
 import { LinearGradient } from "expo-linear-gradient";
 import { router } from "expo-router";
-import React, { Fragment } from "react";
+import React, { } from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
 const items = [
