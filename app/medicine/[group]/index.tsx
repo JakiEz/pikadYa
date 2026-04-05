@@ -22,7 +22,7 @@ export default function GroupPage() {
               padding: 15,
               backgroundImage: "",
               backgroundColor: "#ddd",
-              marginTop: 15,
+              marginTop: 1,
               borderRadius: 20,
               marginVertical: 15,
             }}
