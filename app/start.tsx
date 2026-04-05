@@ -12,13 +12,7 @@ export default function Startpage() {
     "พิกัดยา 10",
     "พิกัดยาพิเศษ",
   ];
-  const groups = [
-    "พิกัดยา 5",
-    "พิกัดยา 7",
-    "พิกัดยา 9",
-    "พิกัดยา 10",
-    "พิกัดยาพิเศษ",
-  ];
+ 
 
   return (
     <LinearGradient colors={["#FFE082", "#faedb9", "#FFF3C4", "#FFFFFF"]} style={styles.container}>
