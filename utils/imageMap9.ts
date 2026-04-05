@@ -32,4 +32,16 @@ export const imageMap9: Record<string, any> = {
   "ดอกกระดังงา.jpg": require("@/assets/images/9/พิกัดเกสรทั้ง 9/ดอกกระดังงา.jpg"),
   "ดอกลำดวน.jpg": require("@/assets/images/9/พิกัดเกสรทั้ง 9/ดอกลำดวน.jpg"),
   "ดอกลำเจียก.jpg": require("@/assets/images/9/พิกัดเกสรทั้ง 9/ดอกลำเจียก.jpg"),
+
+  // --------  พิกัดเนาวโกฐ--------
+  "โกฐสอ.jpg": require("@/assets/images/9/พิกัดเนาวโกฐ/โกฐสอ.jpg"),
+  "โกฐเขมา.jpg": require("@/assets/images/9/พิกัดเนาวโกฐ/โกฐเขมา.jpg"),
+  "โกฐหัวบัว.jpg": require("@/assets/images/9/พิกัดเนาวโกฐ/โกฐหัวบัว.jpg"),
+  "โกฐเชียง.jpg": require("@/assets/images/9/พิกัดเนาวโกฐ/โกฐเชียง.jpg"),
+  "โกฐจุฬาลัมพา.jpg": require("@/assets/images/9/พิกัดเนาวโกฐ/โกฐจุฬาลัมพา.jpg"),
+  "โกฐก้านพร้าว.jpg": require("@/assets/images/9/พิกัดเนาวโกฐ/โกฐก้านพร้าว.jpg"),
+  "โกฐกระดูก.jpg": require("@/assets/images/9/พิกัดเนาวโกฐ/โกฐกระดูก.jpg"),
+  "โกฐพุงปลา.jpg": require("@/assets/images/9/พิกัดเนาวโกฐ/โกฐพุงปลา.jpg"),
+  "โกฐจุฬามังสี.jpg": require("@/assets/images/9/พิกัดเนาวโกฐ/โกฐจุฬามังสี.jpg")
+
 };

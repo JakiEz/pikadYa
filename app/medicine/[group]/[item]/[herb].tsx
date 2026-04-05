@@ -7,6 +7,7 @@ import { ScrollView, Text, View, TouchableOpacity, Image } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import data from "../../../../data/medicine.json";
 import Frame from "@/components/Frame";
+
 // 1. Define the shape of your data
 interface Herb {
   name: string;
@@ -68,10 +69,10 @@ export default function HerbPage() {
 
   return (
     <LinearGradient
-      colors={["#f7dd59", "#f7e9b3"]}
-      style={{ flex: 1, }}
+      colors={["#FFE082","#faedb9" ,"#FFF3C4", "#FFFFFF"]}
+      style={{ flex: 1 }}
     >
-       <Frame>
+      <Frame>
         <ScrollView
           style={{ flex: 1 }}
           contentContainerStyle={{
@@ -82,7 +83,15 @@ export default function HerbPage() {
           }}
         >
           <Text
-            style={{ fontSize: 45, fontWeight: "700", textAlign: "center" }}
+            style={{
+              fontSize: 38,
+              fontWeight: "800",
+              textAlign: "center",
+              color: "#5a3e1b",
+              textShadowColor: "#fff",
+              textShadowOffset: { width: 3, height: 3 },
+              textShadowRadius: 3,
+            }}
           >
             {item}
           </Text>
@@ -99,33 +108,42 @@ export default function HerbPage() {
             }}
             resizeMode="cover"
           />
-          <View
+          <LinearGradient
+            colors={["#FFE0B2", "#FFE0B2"]}
+            start={{ x: 0, y: 0 }}
+            end={{ x: 1, y: 1 }}
             style={{
-              marginTop: 20,
-              backgroundColor: "#ededed",
-              borderRadius: 20,
-              padding: 20,
+              marginTop: 25,
+              borderRadius: 30,
+              padding: 22,
 
-              // shadow (iOS)
               shadowColor: "#000",
-              shadowOpacity: 0.2,
-              shadowRadius: 10,
-              shadowOffset: { width: 0, height: 5 },
-
-              // shadow (Android)
-              elevation: 5,
+              shadowOpacity: 0.1,
+              shadowRadius: 15,
+              shadowOffset: { width: 0, height: 10 },
+              elevation: 6,
             }}
           >
-            <Text style={{ fontSize: 22 }}>
-              <Text style={{ fontWeight: "bold" }}>ชื่อ: </Text>
+            <Text style={{ fontSize: 22, color: "#333" }}>
+              <Text style={{ fontWeight: "900", color: "#5a3e1b" }}>
+              🌿ชื่อ:{" "}
+              </Text>
               {herbData.name}
             </Text>
-
-            <Text style={{ marginTop: 15, fontSize: 21, lineHeight: 26 }}>
-              <Text style={{ fontWeight: "bold" }}>สรรพคุณ: </Text>
+            <Text
+              style={{
+                marginTop: 10,
+                fontSize: 22,
+                lineHeight: 28,
+                color: "#333",
+              }}
+            >
+              <Text style={{ fontWeight: "bold", color: "#5a3e1b" }}>
+              🌿สรรพคุณ:
+              </Text>{" "}
               {herbData.detail || "ยังไม่มีรายละเอียด"}
             </Text>
-          </View>
+          </LinearGradient>
         </ScrollView>
         <TouchableOpacity
           onPress={() => router.back()}
@@ -149,7 +167,7 @@ export default function HerbPage() {
             ← ย้อนกลับ
           </Text>
         </TouchableOpacity>
-        </Frame>
+      </Frame>
     </LinearGradient>
   );
 }
