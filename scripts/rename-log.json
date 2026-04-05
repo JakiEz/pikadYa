@@ -1,0 +1,466 @@
+[
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\10\\พิกัดทศกุลาผล\\ชะเอมเทศ.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\10\\พิกัดทศกุลาผล\\cha_oem_thet.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\10\\พิกัดทศกุลาผล\\ลำพันแดง.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\10\\พิกัดทศกุลาผล\\lam_phan_daeng.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\10\\พิกัดทศกุลาผล\\ลูกผักชีลา.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\10\\พิกัดทศกุลาผล\\luk_phak_chi_la.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\10\\พิกัดทศกุลาผล\\ลูกเร่วน้อย.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\10\\พิกัดทศกุลาผล\\luk_ruea_noi.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\10\\พิกัดทศกุลาผล\\ลูกเร่วใหญ่.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\10\\พิกัดทศกุลาผล\\luk_ruea_yai.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\10\\พิกัดทศกุลาผล\\อบเชยเทศ.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\10\\พิกัดทศกุลาผล\\op_choei_thet.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\10\\พิกัดทศกุลาผล\\อบเชยไทย.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\10\\พิกัดทศกุลาผล\\op_choei_thai.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\10\\พิกัดทศมูลใหญ่\\รากมะตูม.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\10\\พิกัดทศมูลใหญ่\\rak_ma_tum.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\10\\พิกัดทศมูลใหญ่\\รากมะอึก.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\10\\พิกัดทศมูลใหญ่\\rak_ma_oek.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\10\\พิกัดทศมูลใหญ่\\รากมะเขือขื่น.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\10\\พิกัดทศมูลใหญ่\\rak_ma_khuea_khuen.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\10\\พิกัดทศมูลใหญ่\\รากละหุ่งแดง.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\10\\พิกัดทศมูลใหญ่\\rak_la_hung_daeng.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\10\\พิกัดทศมูลใหญ่\\รากลำดึง.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\10\\พิกัดทศมูลใหญ่\\rak_lam_dueng.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\10\\พิกัดทศมูลใหญ่\\รากลำไย.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\10\\พิกัดทศมูลใหญ่\\rak_lam_yai.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\10\\พิกัดทศมูลใหญ่\\รากเพกา.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\10\\พิกัดทศมูลใหญ่\\rak_phe_ka.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\10\\พิกัดทศมูลใหญ่\\รากแคแตร.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\10\\พิกัดทศมูลใหญ่\\rak_khae_trae.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\10\\พิกัดทศมูลใหญ่\\หญ้าเกล็ดหอยน้อย.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\10\\พิกัดทศมูลใหญ่\\ya_klet_hoi_noi.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\10\\พิกัดทศมูลใหญ่\\หญ้าเกล็ดหอยใหญ่.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\10\\พิกัดทศมูลใหญ่\\ya_klet_hoi_yai.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะปะระเหมะ\\ลูกมะขามป้อม.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะปะระเหมะ\\luk_ma_kham_pom.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะปะระเหมะ\\ลูกสมอพิเภก.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะปะระเหมะ\\luk_sa_mo_phi_phek.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะปะระเหมะ\\ลูกสมอไทย.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะปะระเหมะ\\luk_sa_mo_thai.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะเทียน\\เทียนขาว.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะเทียน\\thian_khao.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะเทียน\\เทียนข้าวเปลือก.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะเทียน\\thian_khao_plueak.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะเทียน\\เทียนดำ.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะเทียน\\thian_dam.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะเทียน\\เทียนตาตั๊กแตน.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะเทียน\\thian_ta_tak_ka_taen.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะเทียน\\เทียนสัตตบุษย์.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะเทียน\\thian_sat_ta_but.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะเทียน\\เทียนเยาวพาณี.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะเทียน\\thian_yao_wa_pha_ni.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะเทียน\\เทียนแดง.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะเทียน\\thian_daeng.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะโกฐ\\โกฐกระดูก.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะโกฐ\\kot_kra_duk.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะโกฐ\\โกฐก้านพร้าว.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะโกฐ\\kot_kan_prao.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะโกฐ\\โกฐจุฬาลัมพา.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะโกฐ\\kot_chu_la_lam_pha.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะโกฐ\\โกฐสอ.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะโกฐ\\kot_so.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะโกฐ\\โกฐหัวบัว.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะโกฐ\\kot_hua_bua.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะโกฐ\\โกฐเขมา.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะโกฐ\\kot_kha_mao.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะโกฐ\\โกฐเชียง.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะโกฐ\\kot_chiang.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะโลหะ\\รากต้นใบทอง.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะโลหะ\\rak_ton_bai_thong.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะโลหะ\\รากทองกวาว.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะโลหะ\\rak_thong_kwao.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะโลหะ\\รากทองพันชั่ง.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะโลหะ\\rak_thong_phan_chang.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะโลหะ\\รากทองหลางหนาม.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะโลหะ\\rak_thong_lang_nam.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะโลหะ\\รากทองหลางใบมน.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะโลหะ\\rak_thong_lang_bai_mon.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะโลหะ\\รากทองโหลง.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะโลหะ\\rak_thong_hong.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะโลหะ\\รากฟักทอง.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดสัตตะโลหะ\\rak_fak_thong.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดเกสรทั้ง 7\\ดอกกระดังงา.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดเกสรทั้ง 7\\dok_kra_dang_nga.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดเกสรทั้ง 7\\ดอกจำปา.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดเกสรทั้ง 7\\dok_cham_pa.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดเกสรทั้ง 7\\ดอกบุนนาค.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดเกสรทั้ง 7\\dok_bun_nak.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดเกสรทั้ง 7\\ดอกพิกุล.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดเกสรทั้ง 7\\dok_phi_kun.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดเกสรทั้ง 7\\ดอกมะลิ.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดเกสรทั้ง 7\\dok_ma_li.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดเกสรทั้ง 7\\ดอกลำดวน.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดเกสรทั้ง 7\\dok_lam_duan.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดเกสรทั้ง 7\\ดอกสารภี.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดเกสรทั้ง 7\\dok_sa_ra_phi.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดเกสรทั้ง 7\\เกสรบัวหลวง.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\7\\พิกัดเกสรทั้ง 7\\ke_son_bua_luang.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเกสรทั้ง 9\\ดอกกระดังงา.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเกสรทั้ง 9\\dok_kra_dang_nga.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเกสรทั้ง 9\\ดอกจำปา.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเกสรทั้ง 9\\dok_cham_pa.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเกสรทั้ง 9\\ดอกดังงา.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเกสรทั้ง 9\\dok_dang_nga.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเกสรทั้ง 9\\ดอกบุนนาค.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเกสรทั้ง 9\\dok_bun_nak.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเกสรทั้ง 9\\ดอกพิกุล.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเกสรทั้ง 9\\dok_phi_kun.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเกสรทั้ง 9\\ดอกมะลิ.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเกสรทั้ง 9\\dok_ma_li.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเกสรทั้ง 9\\ดอกลำดวน.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเกสรทั้ง 9\\dok_lam_duan.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเกสรทั้ง 9\\ดอกลำเจียก.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเกสรทั้ง 9\\dok_lam_chiak.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเกสรทั้ง 9\\ดอกสารภี.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเกสรทั้ง 9\\dok_sa_ra_phi.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเกสรทั้ง 9\\เกสรบัวหลวง.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเกสรทั้ง 9\\ke_son_bua_luang.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวหอย\\เปลือกหอยกาบ.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวหอย\\plueak_hoi_kap.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวหอย\\เปลือกหอยขม.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวหอย\\plueak_hoi_khom.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวหอย\\เปลือกหอยจุ๊บแจง.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวหอย\\plueak_hoi_chup_chaeng.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวหอย\\เปลือกหอยตาวัว.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวหอย\\plueak_hoi_ta_wua.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวหอย\\เปลือกหอยนางรม.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวหอย\\plueak_hoi_nang_rom.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวหอย\\เปลือกหอยพิมพการัง.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวหอย\\plueak_hoi_phim_ka_rang.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวหอย\\เปลือกหอยมุก.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวหอย\\plueak_hoi_muk.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวหอย\\เปลือกหอยสังข์.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวหอย\\plueak_hoi_sang.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวหอย\\เปลือกหอยแครง.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวหอย\\plueak_hoi_khraeng.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวเขี้ยว\\เขี้ยวจระเข้.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวเขี้ยว\\khiao_cho_ra_khe.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวเขี้ยว\\เขี้ยวช้าง.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวเขี้ยว\\khiao_chang.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวเขี้ยว\\เขี้ยวปลาพะยูน.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวเขี้ยว\\khiao_pla_pha_yun.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวเขี้ยว\\เขี้ยวหมาป่า.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวเขี้ยว\\khiao_ma_pa.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวเขี้ยว\\เขี้ยวหมี.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวเขี้ยว\\khiao_mi.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวเขี้ยว\\เขี้ยวหมูป่า.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวเขี้ยว\\khiao_mu_pa.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวเขี้ยว\\เขี้ยวเลียงผา.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวเขี้ยว\\khiao_liang_pha.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวเขี้ยว\\เขี้ยวเสือ.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวเขี้ยว\\khiao_suea.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวเขี้ยว\\เขี้ยวแรด.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวเขี้ยว\\khiao_raet.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวเทียน\\เทียนขาว.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวเทียน\\thian_khao.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวเทียน\\เทียนข้าวเปลือก.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวเทียน\\thian_khao_plueak.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวเทียน\\เทียนดำ.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวเทียน\\thian_dam.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวเทียน\\เทียนตากบ.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวเทียน\\thian_ta_kop.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวเทียน\\เทียนตาตั๊กแตน.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวเทียน\\thian_ta_tak_ka_taen.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวเทียน\\เทียนสัตตบุษย์.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวเทียน\\thian_sat_ta_but.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวเทียน\\เทียนเกล็ดหอย.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวเทียน\\thian_klet_hoi.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวเทียน\\เทียนเยาวพาณี.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวเทียน\\thian_yao_wa_pha_ni.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวเทียน\\เทียนแดง.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวเทียน\\thian_daeng.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวโกฐ\\โกฐกระดูก.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวโกฐ\\kot_kra_duk.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวโกฐ\\โกฐก้านพร้าว.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวโกฐ\\kot_kan_prao.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวโกฐ\\โกฐจุฬามังสี.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวโกฐ\\kot_chu_la_mang_si.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวโกฐ\\โกฐจุฬาลัมพา.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวโกฐ\\kot_chu_la_lam_pha.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวโกฐ\\โกฐพุงปลา.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวโกฐ\\kot_phung_pla.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวโกฐ\\โกฐสอ.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวโกฐ\\kot_so.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวโกฐ\\โกฐหัวบัว.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวโกฐ\\kot_hua_bua.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวโกฐ\\โกฐเขมา.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวโกฐ\\kot_kha_mao.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวโกฐ\\โกฐเชียง.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวโกฐ\\kot_chiang.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวโลหะ\\จำปาทอง.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวโลหะ\\cham_pa_thong.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวโลหะ\\ต้นใบทอง.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวโลหะ\\ton_bai_thong.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวโลหะ\\ทองกวาว.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวโลหะ\\thong_kwao.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวโลหะ\\ทองพันชั่ง.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวโลหะ\\thong_phan_chang.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวโลหะ\\ทองหลางหนาม.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวโลหะ\\thong_lang_nam.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวโลหะ\\ทองหลางใบมน.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวโลหะ\\thong_lang_bai_mon.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวโลหะ\\ทองโหลง.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวโลหะ\\thong_hong.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวโลหะ\\รากทองเครือ.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวโลหะ\\rak_thong_khruea.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวโลหะ\\เนื้อไม้ขันทองพยาบาท.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\9\\พิกัดเนาวโลหะ\\nuea_mai_khan_thong.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\พิกัดยาพิเศษ\\พิกัดบัวพิเศษ\\บัวขม.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\พิกัดยาพิเศษ\\พิกัดบัวพิเศษ\\bua_khom.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\พิกัดยาพิเศษ\\พิกัดบัวพิเศษ\\บัวสัตตบงกชขาว.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\พิกัดยาพิเศษ\\พิกัดบัวพิเศษ\\bua_sat_ta_bong_cha_khao.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\พิกัดยาพิเศษ\\พิกัดบัวพิเศษ\\บัวสัตตบงกชแดง.png",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\พิกัดยาพิเศษ\\พิกัดบัวพิเศษ\\bua_sat_ta_bong_cha_daeng.png"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\พิกัดยาพิเศษ\\พิกัดบัวพิเศษ\\บัวหลวงขาว.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\พิกัดยาพิเศษ\\พิกัดบัวพิเศษ\\bua_luang_khao.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\พิกัดยาพิเศษ\\พิกัดบัวพิเศษ\\บัวหลวงแดง.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\พิกัดยาพิเศษ\\พิกัดบัวพิเศษ\\bua_luang_daeng.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\พิกัดยาพิเศษ\\พิกัดบัวพิเศษ\\บัวเผื่อน.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\พิกัดยาพิเศษ\\พิกัดบัวพิเศษ\\bua_phuean.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\พิกัดยาพิเศษ\\พิกัดเทียนพิเศษ\\เทียนขม.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\พิกัดยาพิเศษ\\พิกัดเทียนพิเศษ\\thian_khom.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\พิกัดยาพิเศษ\\พิกัดเทียนพิเศษ\\เทียนลวด.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\พิกัดยาพิเศษ\\พิกัดเทียนพิเศษ\\thian_luat.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\พิกัดยาพิเศษ\\พิกัดเทียนพิเศษ\\เทียนแกลบ.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\พิกัดยาพิเศษ\\พิกัดเทียนพิเศษ\\thian_klaep.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\พิกัดยาพิเศษ\\พิกัดโกฐพิเศษ\\โกฐกรักกรา.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\พิกัดยาพิเศษ\\พิกัดโกฐพิเศษ\\kot_krak_kra.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\พิกัดยาพิเศษ\\พิกัดโกฐพิเศษ\\โกฐจันทน์.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\พิกัดยาพิเศษ\\พิกัดโกฐพิเศษ\\kot_chan.jpg"
+  },
+  {
+    "from": "D:\\code\\pikadya\\pikadYa\\assets\\images\\พิกัดยาพิเศษ\\พิกัดโกฐพิเศษ\\โกฐน้ำเต้า.jpg",
+    "to": "D:\\code\\pikadya\\pikadYa\\assets\\images\\พิกัดยาพิเศษ\\พิกัดโกฐพิเศษ\\kot_nam_tao.jpg"
+  }
+]

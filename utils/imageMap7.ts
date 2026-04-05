@@ -1,22 +1,22 @@
 export const imageMap7: Record<string, any> = {
 
 //พิกัดสัตตะโลหะ
-    "รากทองกวาว.jpg": require("@/assets/images/7/พิกัดสัตตะโลหะ/รากทองกวาว.jpg"),
-  "รากทองหลางหนาม.jpg": require("@/assets/images/7/พิกัดสัตตะโลหะ/รากทองหลางหนาม.jpg"),
-  "รากทองหลางใบมน.jpg": require("@/assets/images/7/พิกัดสัตตะโลหะ/รากทองหลางใบมน.jpg"),
-  "รากทองโหลง.jpg": require("@/assets/images/7/พิกัดสัตตะโลหะ/รากทองโหลง.jpg"),
-  "รากทองพันชั่ง.jpg": require("@/assets/images/7/พิกัดสัตตะโลหะ/รากทองพันชั่ง.jpg"),
-  "รากฟักทอง.jpg": require("@/assets/images/7/พิกัดสัตตะโลหะ/รากฟักทอง.jpg"),
-  "รากต้นใบทอง.jpg": require("@/assets/images/7/พิกัดสัตตะโลหะ/รากต้นใบทอง.jpg"),
+    "rak_thong_kwao.jpg": require("@/assets/images/7/พิกัดสัตตะโลหะ/rak_thong_kwao.jpg"),
+  "rak_thong_lang_nam.jpg": require("@/assets/images/7/พิกัดสัตตะโลหะ/rak_thong_lang_nam.jpg"),
+  "rak_thong_lang_bai_mon.jpg": require("@/assets/images/7/พิกัดสัตตะโลหะ/rak_thong_lang_bai_mon.jpg"),
+  "rak_thong_hong.jpg": require("@/assets/images/7/พิกัดสัตตะโลหะ/rak_thong_hong.jpg"),
+  "rak_thong_phan_chang.jpg": require("@/assets/images/7/พิกัดสัตตะโลหะ/rak_thong_phan_chang.jpg"),
+  "rak_fak_thong.jpg": require("@/assets/images/7/พิกัดสัตตะโลหะ/rak_fak_thong.jpg"),
+  "rak_ton_bai_thong.jpg": require("@/assets/images/7/พิกัดสัตตะโลหะ/rak_ton_bai_thong.jpg"),
 
   //พิกัดสัตตะเทียน
-  "เทียนดำ.jpg": require("@/assets/images/7/พิกัดสัตตะเทียน/เทียนดำ.jpg"),
-  "เทียนแดง.jpg": require("@/assets/images/7/พิกัดสัตตะเทียน/เทียนแดง.jpg"),
-  "เทียนขาว.jpg": require("@/assets/images/7/พิกัดสัตตะเทียน/เทียนขาว.jpg"),
-  "เทียนข้าวเปลือก.jpg": require("@/assets/images/7/พิกัดสัตตะเทียน/เทียนข้าวเปลือก.jpg"),
-  "เทียนตาตั๊กแตน.jpg": require("@/assets/images/7/พิกัดสัตตะเทียน/เทียนตาตั๊กแตน.jpg"),
-  "เทียนสัตตบุษย์.jpg": require("@/assets/images/7/พิกัดสัตตะเทียน/เทียนสัตตบุษย์.jpg"),
-  "เทียนเยาวพาณี.jpg": require("@/assets/images/7/พิกัดสัตตะเทียน/เทียนเยาวพาณี.jpg"),
+  "thian_dam.jpg": require("@/assets/images/7/พิกัดสัตตะเทียน/thian_dam.jpg"),
+  "thian_daeng.jpg": require("@/assets/images/7/พิกัดสัตตะเทียน/thian_daeng.jpg"),
+  "thian_khao.jpg": require("@/assets/images/7/พิกัดสัตตะเทียน/thian_khao.jpg"),
+  "thian_khao_plueak.jpg": require("@/assets/images/7/พิกัดสัตตะเทียน/thian_khao_plueak.jpg"),
+  "thian_ta_tak_ka_taen.jpg": require("@/assets/images/7/พิกัดสัตตะเทียน/thian_ta_tak_ka_taen.jpg"),
+  "thian_sat_ta_but.jpg": require("@/assets/images/7/พิกัดสัตตะเทียน/thian_sat_ta_but.jpg"),
+  "thian_yao_wa_pha_ni.jpg": require("@/assets/images/7/พิกัดสัตตะเทียน/thian_yao_wa_pha_ni.jpg"),
 
   //พิกัดสัตตะเขา
   "khao_wua.jpg": require("@/assets/images/7/พิกัดสัตตะเขา/khao_wua.jpg"),
@@ -34,7 +34,7 @@ export const imageMap7: Record<string, any> = {
 "luk_krwan.jpg": require("@/assets/images/7/พิกัดสัตตะปะระเหมะ/luk_krwan.jpg"),
 "got_kraduk.jpg": require("@/assets/images/7/พิกัดสัตตะปะระเหมะ/got_kraduk.jpg"),
 "luk_rakthet.jpg": require("@/assets/images/7/พิกัดสัตตะปะระเหมะ/luk_rakthet.jpg"),
-"ลูกสมอไทย.jpg": require("@/assets/images/7/พิกัดสัตตะปะระเหมะ/ลูกสมอไทย.jpg"),
-"ลูกมะขามป้อม.jpg": require("@/assets/images/7/พิกัดสัตตะปะระเหมะ/ลูกมะขามป้อม.jpg"),
-"ลูกสมอพิเภก.jpg": require("@/assets/images/7/พิกัดสัตตะปะระเหมะ/ลูกสมอพิเภก.jpg"),
+"luk_sa_mo_thai.jpg": require("@/assets/images/7/พิกัดสัตตะปะระเหมะ/luk_sa_mo_thai.jpg"),
+"luk_ma_kham_pom.jpg": require("@/assets/images/7/พิกัดสัตตะปะระเหมะ/luk_ma_kham_pom.jpg"),
+"luk_sa_mo_phi_phek.jpg": require("@/assets/images/7/พิกัดสัตตะปะระเหมะ/luk_sa_mo_phi_phek.jpg"),
 }
