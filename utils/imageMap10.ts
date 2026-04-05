@@ -7,7 +7,7 @@ export const imageMap10: Record<string, any> = {
   "ลูกเร่วน้อย.jpg": require("@/assets/images/10/พิกัดทศกุลาผล/ลูกเร่วน้อย.jpg"),
   "ชะเอมเทศ.jpg": require("@/assets/images/10/พิกัดทศกุลาผล/ชะเอมเทศ.jpg"),
   "ชะเอมไทย.jpg": require("@/assets/images/10/พิกัดทศกุลาผล/ชะเอมไทย.jpg"),
-  "ลำพัน.jpg": require("@/assets/images/10/พิกัดทศกุลาผล/ลำพันแดง.jpg"),
+  "ลำพันแดง.jpg": require("@/assets/images/10/พิกัดทศกุลาผล/ลำพันแดง.jpg"),
   "อบเชยเทศ.jpg": require("@/assets/images/10/พิกัดทศกุลาผล/อบเชยเทศ.jpg"),
   "อบเชยไทย.jpg": require("@/assets/images/10/พิกัดทศกุลาผล/อบเชยไทย.jpg"),
 
