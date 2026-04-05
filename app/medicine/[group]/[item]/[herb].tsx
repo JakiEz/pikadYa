@@ -98,7 +98,7 @@ export default function HerbPage() {
           {/* Image placeholder */}
 
           <Image
-            source={imageSource || require("@/assets/images/react-logo.png")}
+            source={imageSource || require("@/assets/images/")}
             style={{
               width: 350,
               height: 350,
