@@ -22,12 +22,16 @@ export default function ItemDetail() {
     >
        <Frame>
       <Text
-        style={{
-          fontSize: 39,
-          fontWeight: "bold",
-          marginTop: 70,
-          textAlign: "center",
-        }}
+       style={{
+        fontSize: 38,
+        fontWeight: "800",
+        textAlign: "center",
+        marginTop:  80,
+        color: "#5a3e1b",
+        textShadowColor: "#fff",
+        textShadowOffset: { width: 3, height: 3 },
+        textShadowRadius: 3,
+      }}
       >
         {item}
       </Text>
@@ -39,7 +43,7 @@ export default function ItemDetail() {
             key={i}
             style={{
               padding: 15,
-              backgroundColor: "#eee",
+              backgroundColor: "#e3b57b",
               marginTop: 15,
               borderRadius: 15,
               width: "90%",        // 👈 ลดความกว้าง
@@ -51,12 +55,34 @@ export default function ItemDetail() {
               )
             }
           >
-            <Text style={{ fontSize: 20, textAlign: "center" }}>
+            <Text style={{ fontSize: 20, textAlign: "center",fontWeight: "bold", color: "#5a3e1b" }}>
               {h.name}
             </Text>
           </TouchableOpacity>
         ))}
       </ScrollView>
+      <TouchableOpacity
+          onPress={() => router.back()}
+          style={{
+            position: "absolute",
+            bottom: 30,
+            left: 20,
+            backgroundColor: "#5a3e1b",
+            paddingVertical: 12,
+            paddingHorizontal: 18,
+            borderRadius: 30,
+
+            shadowColor: "#000",
+            shadowOpacity: 0.3,
+            shadowRadius: 5,
+            shadowOffset: { width: 0, height: 3 },
+            elevation: 5,
+          }}
+        >
+          <Text style={{ color: "#fff", fontSize: 16, fontWeight: "bold" }}>
+            ← ย้อนกลับ
+          </Text>
+        </TouchableOpacity>
       </Frame>
     </LinearGradient>
   );

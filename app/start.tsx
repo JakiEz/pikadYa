@@ -25,7 +25,10 @@ export default function Startpage() {
 
 const styles = StyleSheet.create({
   container: { flex: 1, justifyContent: "center", alignItems: "center" },
-  title: { fontSize: 64, fontWeight: "bold", marginBottom: 20 },
+  title: { fontSize: 64,  fontWeight: "800", marginBottom: 20,color: "#5a3e1b",
+    textShadowColor: "#fff",
+    textShadowOffset: { width: 3, height: 3 },
+    textShadowRadius: 3, },
   button: { padding: 15, backgroundColor: "#eee", borderRadius: 20, marginBottom: 10 ,width: "70%",marginVertical: 15},
   text: { fontSize: 18 , textAlign: "center" },
 });

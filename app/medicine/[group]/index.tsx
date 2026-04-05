@@ -13,7 +13,16 @@ export default function GroupPage() {
   return (
     <LinearGradient  colors={["#FFE082", "#faedb9", "#FFF3C4", "#FFFFFF"]} style={{ flex: 1 }}>
       <Frame>
-      <Text style={{ fontSize: 60, fontWeight: "900", textAlign: "center", marginTop: 90}}>
+      <Text  style={{
+              fontSize: 50,
+              fontWeight: "800",
+              textAlign: "center",
+              marginTop:  70,
+              color: "#5a3e1b",
+              textShadowColor: "#fff",
+              textShadowOffset: { width: 3, height: 3 },
+              textShadowRadius: 3,
+            }}>
         {group}
       </Text>
       <ScrollView style={{ marginTop: 30, borderRadius: 20 }}>
@@ -23,7 +32,7 @@ export default function GroupPage() {
             style={{
               padding: 15,
               backgroundImage: "",
-              backgroundColor: "#ddd",
+              backgroundColor: "#e3b57b",
               marginTop: 1,
               borderRadius: 20,
               marginVertical: 15,
@@ -32,10 +41,32 @@ export default function GroupPage() {
             }}
             onPress={() => router.push(`/medicine/${group}/${cat}` as any)} // Use type assertion
           >
-            <Text style={{ textAlign: "center", fontSize: 20 }}>{cat}</Text>
+            <Text style={{ textAlign: "center", fontSize: 20,fontWeight: "bold", color: "#5a3e1b" }}>{cat}</Text>
           </TouchableOpacity>
         ))}
       </ScrollView>
+      <TouchableOpacity
+          onPress={() => router.back()}
+          style={{
+            position: "absolute",
+            bottom: 30,
+            left: 20,
+            backgroundColor: "#5a3e1b",
+            paddingVertical: 12,
+            paddingHorizontal: 18,
+            borderRadius: 30,
+
+            shadowColor: "#000",
+            shadowOpacity: 0.3,
+            shadowRadius: 5,
+            shadowOffset: { width: 0, height: 3 },
+            elevation: 5,
+          }}
+        >
+          <Text style={{ color: "#fff", fontSize: 16, fontWeight: "bold" }}>
+            ← ย้อนกลับ
+          </Text>
+        </TouchableOpacity>
       </Frame>
     </LinearGradient>
   );
