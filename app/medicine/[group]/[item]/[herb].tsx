@@ -108,7 +108,7 @@ export default function HerbPage() {
               shadowRadius: 15,
               shadowOffset: { width: 0, height: 10 },
 
-              elevation: 8, // Android
+              elevation: 3, // Android
             }}
           >
             {images.length > 1 ? (

@@ -176,7 +176,7 @@ const styles = StyleSheet.create({
     shadowOpacity: 4,
     shadowRadius: 2,
     shadowOffset: { width: 7, height: 9 },
-    elevation: 6,
+    elevation: 8,
   },
 
   grayButton: {
