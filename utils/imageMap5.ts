@@ -17,13 +17,11 @@ export const imageMap5: Record<string, any> = {
   // "nam_man_noei.png": require("@/assets/images/5/พิกัดเบญจอมฤต/LINE_ALBUM_พิกัดเบญจอมฤต_260405_5.jpg"),
 
   // -------- พิกัดเบญจผลธาตุ --------
-  // Files: LINE_ALBUM_พิกัดเบญจผลธาตุ_260405_1..5.jpg (folder: พิกัดเบญผลธาตุ)
-  // TODO: map hua_kok_lang_ka.png, hua_tao_kiat.png, hua_haeo_mu.png, hua_ya_chan_kat.png, hua_pro.png
-  // "hua_kok_lang_ka.png": require("@/assets/images/5/พิกัดเบญผลธาตุ/LINE_ALBUM_พิกัดเบญจผลธาตุ_260405_1.jpg"),
-  // "hua_tao_kiat.png": require("@/assets/images/5/พิกัดเบญผลธาตุ/LINE_ALBUM_พิกัดเบญจผลธาตุ_260405_2.jpg"),
-  // "hua_haeo_mu.png": require("@/assets/images/5/พิกัดเบญผลธาตุ/LINE_ALBUM_พิกัดเบญจผลธาตุ_260405_3.jpg"),
-  // "hua_ya_chan_kat.png": require("@/assets/images/5/พิกัดเบญผลธาตุ/LINE_ALBUM_พิกัดเบญจผลธาตุ_260405_4.jpg"),
-  // "hua_pro.png": require("@/assets/images/5/พิกัดเบญผลธาตุ/LINE_ALBUM_พิกัดเบญจผลธาตุ_260405_5.jpg"),
+  "hua_kok_lang_ka.jpg": require("@/assets/images/5/พิกัดเบญผลธาตุ/hua_kok_lang_ka.jpg"),
+  "hua_tao_kiat.jpg": require("@/assets/images/5/พิกัดเบญผลธาตุ/hua_tao_kiat.jpg"),
+  "hua_haeo_mu.jpg": require("@/assets/images/5/พิกัดเบญผลธาตุ/hua_haeo_mu.jpg"),
+  "hua_ya_chan_kat.jpg": require("@/assets/images/5/พิกัดเบญผลธาตุ/hua_ya_chan_kat.jpg"),
+  "hua_pro.jpg": require("@/assets/images/5/พิกัดเบญผลธาตุ/hua_pro.jpg"),
 
   // -------- พิกัดเบญจมูลใหญ่ (พิกัด5ราก) --------
   // Files: LINE_ALBUM_พิกัด 5 ราก_260405_1..5.jpg
@@ -48,4 +46,18 @@ export const imageMap5: Record<string, any> = {
   // TODO: map kaen_chan_thet.png, chan_tha_na.png (and confirm ordering with kaen_chan_daeng/khao/chamot)
   // "kaen_chan_thet.png": require("@/assets/images/5/จันทน์ทั้ง5/LINE_ALBUM_จันทน์ทั้ง5_260405_3.jpg"),
   // "chan_tha_na.png": require("@/assets/images/5/จันทน์ทั้ง5/LINE_ALBUM_จันทน์ทั้ง5_260405_4.jpg"),
+
+  //-------- พิกัดเกลือ 5 --------
+  "kluea_sa_mut.jpg": require("@/assets/images/5/พิกัดเกลือทั้ง5/kluea_sa_mut.jpg"),
+  "kluea_sin_thao.jpg": require("@/assets/images/5/พิกัดเกลือทั้ง5/kluea_sin_thao.jpg"),
+  "kluea_phik.jpg": require("@/assets/images/5/พิกัดเกลือทั้ง5/kluea_phik.jpg"),
+  "kluea_fong.jpg": require("@/assets/images/5/พิกัดเกลือทั้ง5/kluea_fong.jpg"),
+  "kluea_wik.jpg": require("@/assets/images/5/พิกัดเกลือทั้ง5/kluea_wik.jpg"),
+
+  //-------- พิกัดเบญจอมฤต --------
+  "nam_nom_sod.jpg": require("@/assets/images/5/พิกัดเบญจอมฤต/nam_nom_sod.jpg"),
+  "nam_nom_som.jpg": require("@/assets/images/5/พิกัดเบญจอมฤต/nam_nom_som.jpg"),
+  "nam_aoi.jpg": require("@/assets/images/5/พิกัดเบญจอมฤต/nam_aoi.jpg"),
+  "nam_phueng.jpg": require("@/assets/images/5/พิกัดเบญจอมฤต/nam_phueng.jpg"),
+  "nam_man_noei.jpg": require("@/assets/images/5/พิกัดเบญจอมฤต/nam_man_noei.jpg"),
 };
