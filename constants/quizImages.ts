@@ -1,4 +1,10 @@
 const quizImages: Record<string, any> = {
+  // Q6 question image
+  q6_0: require('../assets/images/testImage/pre-test/q6_0.jpg'),
+  // Q8 question image
+  q8_0: require('../assets/images/testImage/pre-test/q8_0.jpg'),
+  // Q10 question image
+  q10_0: require('../assets/images/testImage/pre-test/q10_0.jpg'),
   // Q11 options
   q11_1: require('../assets/images/testImage/pre-test/q11_1.jpg'),
   q11_2: require('../assets/images/testImage/pre-test/q11_2.jpg'),
