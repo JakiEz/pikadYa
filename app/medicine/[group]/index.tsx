@@ -1,9 +1,9 @@
 //medicine/[group]/index.tsx
+import Frame from "@/components/Frame";
 import { LinearGradient } from "expo-linear-gradient";
 import { router, useLocalSearchParams } from "expo-router";
-import { Text, TouchableOpacity,ScrollView } from "react-native";
+import { ScrollView, Text, TouchableOpacity, View } from "react-native";
 import data from "../../../data/medicine.json";
-import Frame from "@/components/Frame";
 // import pic from "@assets/";
 
 export default function GroupPage() {
@@ -26,24 +26,52 @@ export default function GroupPage() {
         {group}
       </Text>
       <ScrollView style={{ marginTop: 30, borderRadius: 20 }}>
-        {categories.map((cat) => (
-          <TouchableOpacity
-            key={cat}
+      {categories.map((cat) => (
+  <View
+    key={cat}
+    style={{
+      borderRadius: 15,
+      elevation: 6,
+      width: "90%",
+      alignSelf: "center",
+      marginVertical: 12,
+    }}
+  >
+    {/* 🔥 กรอบสีน้ำตาล */}
+    <LinearGradient
+      colors={["#5a3e1b", "#5a3e1b"]}
+      style={{
+        borderRadius: 15,
+        padding: 3,
+      }}
+    >
+      <TouchableOpacity
+        onPress={() => router.push(`/medicine/${group}/${cat}` as any)}
+        activeOpacity={0.8}
+      >
+        {/* 🔥 พื้นปุ่ม */}
+        <LinearGradient
+          colors={["#e3b57b", "#e3b57b"]}
+          style={{
+            borderRadius: 12,
+            padding: 15,
+          }}
+        >
+          <Text
             style={{
-              padding: 15,
-              backgroundImage: "",
-              backgroundColor: "#e3b57b",
-              marginTop: 1,
-              borderRadius: 20,
-              marginVertical: 15,
-              width: "90%",        // 👈 ลดความกว้าง
-              alignSelf: "center", // 👈 จัดให้อยู่กลาง
+              textAlign: "center",
+              fontSize: 20,
+              fontWeight: "bold",
+              color: "#5a3e1b",
             }}
-            onPress={() => router.push(`/medicine/${group}/${cat}` as any)} // Use type assertion
           >
-            <Text style={{ textAlign: "center", fontSize: 20,fontWeight: "bold", color: "#5a3e1b" }}>{cat}</Text>
-          </TouchableOpacity>
-        ))}
+            {cat}
+          </Text>
+        </LinearGradient>
+      </TouchableOpacity>
+    </LinearGradient>
+  </View>
+))}
       </ScrollView>
       <TouchableOpacity
           onPress={() => router.back()}

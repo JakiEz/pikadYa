@@ -1,9 +1,9 @@
+import Frame from "@/components/Frame";
 import { LinearGradient } from "expo-linear-gradient";
 import { router, useLocalSearchParams } from "expo-router";
-import { Text, TouchableOpacity, ScrollView, View } from "react-native"; // 👈 เพิ่ม
+import { ScrollView, Text, TouchableOpacity, View } from "react-native"; // 👈 เพิ่ม
 import data from "../../../data/medicine.json";
 import summary from "../../../data/medicine_summary.json";
-import Frame from "@/components/Frame";
 
 export default function ItemDetail() {
   const { group, item } = useLocalSearchParams();
@@ -43,26 +43,54 @@ export default function ItemDetail() {
       {/* 👇 ใส่ ScrollView ตรงนี้ */}
       <ScrollView showsVerticalScrollIndicator={false}>
         {herbs.map((h, i) => (
-          <TouchableOpacity
-            key={i}
+          <View
+          key={i}
+          style={{
+            borderRadius: 15,
+            elevation: 6,
+            width: "90%",
+            alignSelf: "center",
+            marginTop: 15,
+          }}
+        >
+          {/* 🔥 กรอบ */}
+          <LinearGradient
+            colors={["#5a3e1b", "#5a3e1b"]}
             style={{
-              padding: 15,
-              backgroundColor: "#e3b57b",
-              marginTop: 15,
               borderRadius: 15,
-              width: "90%",        // 👈 ลดความกว้าง
-              alignSelf: "center", // 👈 จัดให้อยู่กลาง
+              padding: 3,
             }}
-            onPress={() =>
-              router.push(
-                `/medicine/${group}/${item}/${encodeURIComponent(h.name)}`
-              )
-            }
           >
-            <Text style={{ fontSize: 20, textAlign: "center",fontWeight: "bold", color: "#5a3e1b" }}>
-              {h.name}
-            </Text>
-          </TouchableOpacity>
+            <TouchableOpacity
+              onPress={() =>
+                router.push(
+                  `/medicine/${group}/${item}/${encodeURIComponent(h.name)}`
+                )
+              }
+              activeOpacity={0.8}
+            >
+              {/* 🔥 พื้นปุ่ม */}
+              <LinearGradient
+                colors={["#e3b57b", "#e3b57b"]}
+                style={{
+                  borderRadius: 12,
+                  padding: 15,
+                }}
+              >
+                <Text
+                  style={{
+                    fontSize: 20,
+                    textAlign: "center",
+                    fontWeight: "bold",
+                    color: "#5a3e1b",
+                  }}
+                >
+                  {h.name}
+                </Text>
+              </LinearGradient>
+            </TouchableOpacity>
+          </LinearGradient>
+        </View>
         ))}
       </ScrollView>
       <TouchableOpacity
@@ -87,17 +115,17 @@ export default function ItemDetail() {
           </Text>
         </TouchableOpacity>
         {itemSummary && (
-          <View style={{ marginBottom: "45%", backgroundColor: "#f5e6c8", padding: 20, borderRadius: 30, margin: 20, borderColor: "#3b2410", borderWidth: 3 }}>
-            <Text style={{ color: "#3b2410", fontSize: 15, fontWeight: "bold", marginBottom: 6 }}>
+          <View style={{ marginBottom: "30%", backgroundColor: "#f5e6c8", padding: 20, borderRadius: 30, margin: 20, borderColor: "#3b2410", borderWidth: 3 }}>
+            <Text style={{ color: "#3b2410", fontSize: 24, fontWeight: "bold", marginBottom: 6 }}>
               สรรพคุณรวม
             </Text>
-            <Text style={{ color: "#3b2410", fontSize: 14, marginBottom: 12 }}>
+            <Text style={{ color: "#3b2410", fontSize: 18, marginBottom: 12 }}>
               {itemSummary.สรรพคุณรวม}
             </Text>
-            <Text style={{ color: "#3b2410", fontSize: 15, fontWeight: "bold", marginBottom: 6 }}>
+            <Text style={{ color: "#3b2410", fontSize: 24, fontWeight: "bold", marginBottom: 6 }}>
               หลักการจำ
             </Text>
-            <Text style={{ color: "#3b2410", fontSize: 14 }}>
+            <Text style={{ color: "#3b2410", fontSize: 17 }}>
               {itemSummary.หลักการจำ}
             </Text>
           </View>

@@ -2,7 +2,7 @@
 import Frame from "@/components/Frame";
 import { LinearGradient } from "expo-linear-gradient";
 import { router } from "expo-router";
-import { StyleSheet, Text, TouchableOpacity } from "react-native";
+import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
 export default function Startpage() {
   const groups = [
@@ -20,13 +20,43 @@ export default function Startpage() {
         <Text style={styles.title}>พิกัดยา</Text>
 
         {groups.map((g) => (
-          <TouchableOpacity
-            key={g}
-            style={styles.button}
-            onPress={() => router.push(`/medicine/${g}` as any)} // Use type assertion
+          <View
+          key={g}
+          style={{
+            borderRadius: 15,
+            
+            
+            elevation: 6,
+            width: "90%",
+            alignSelf: "center",
+            marginVertical: 12,
+          }}
+        >
+          {/* 🔥 กรอบ */}
+          <LinearGradient
+            colors={["#5a3e1b", "#5a3e1b", "#5a3e1b"]}
+            style={{
+              borderRadius: 15,
+              padding: 3,
+            }}
           >
-            <Text style={styles.text}>{g}</Text>
-          </TouchableOpacity>
+            {/* 🔥 ปุ่มจริง */}
+            <TouchableOpacity
+              onPress={() => router.push(`/medicine/${g}` as any)}
+              activeOpacity={0.8}
+            >
+              <LinearGradient
+                colors={["#e3b57b", "#e3b57b"]}
+                style={{
+                  borderRadius: 15,
+                  padding:15,
+                }}
+              >
+                <Text style={styles.text}>{g}</Text>
+              </LinearGradient>
+            </TouchableOpacity>
+          </LinearGradient>
+        </View>
         ))}
         <TouchableOpacity
           onPress={() => router.back()}
