@@ -1,7 +1,8 @@
 import { LinearGradient } from "expo-linear-gradient";
 import { router, useLocalSearchParams } from "expo-router";
-import { Text, TouchableOpacity, ScrollView } from "react-native"; // 👈 เพิ่ม
+import { Text, TouchableOpacity, ScrollView, View } from "react-native"; // 👈 เพิ่ม
 import data from "../../../data/medicine.json";
+import summary from "../../../data/medicine_summary.json";
 import Frame from "@/components/Frame";
 
 export default function ItemDetail() {
@@ -15,12 +16,15 @@ export default function ItemDetail() {
   const herbs: { name: string }[] =
     groupData[item as keyof typeof groupData] || [];
 
+  const typedSummary = summary as Record<string, Record<string, { สรรพคุณรวม: string; หลักการจำ: string }>>;
+  const itemSummary = typedSummary[group]?.[item];
+
   return (
     <LinearGradient
       colors={["#FFE082", "#faedb9", "#FFF3C4", "#FFFFFF"]}
       style={{ flex: 1, }}
     >
-       <Frame>
+    <Frame>
       <Text
        style={{
         fontSize: 38,
@@ -82,7 +86,22 @@ export default function ItemDetail() {
             ← ย้อนกลับ
           </Text>
         </TouchableOpacity>
-        
+        {itemSummary && (
+          <View style={{ marginBottom: "45%", backgroundColor: "#f5e6c8", padding: 20, borderRadius: 30, margin: 20, borderColor: "#3b2410", borderWidth: 3 }}>
+            <Text style={{ color: "#3b2410", fontSize: 15, fontWeight: "bold", marginBottom: 6 }}>
+              สรรพคุณรวม
+            </Text>
+            <Text style={{ color: "#3b2410", fontSize: 14, marginBottom: 12 }}>
+              {itemSummary.สรรพคุณรวม}
+            </Text>
+            <Text style={{ color: "#3b2410", fontSize: 15, fontWeight: "bold", marginBottom: 6 }}>
+              หลักการจำ
+            </Text>
+            <Text style={{ color: "#3b2410", fontSize: 14 }}>
+              {itemSummary.หลักการจำ}
+            </Text>
+          </View>
+        )}
       </Frame>
     </LinearGradient>
   );
