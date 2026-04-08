@@ -1,10 +1,10 @@
-import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Alert, Image } from 'react-native';
 import { router } from 'expo-router';
 import { useState } from 'react';
+import { Alert, Image, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import QuizOption from '../components/QuizOption';
+import quizImages from '../constants/quizImages';
 import questionsData from '../data/questions.json';
 import { Question } from '../types/quiz';
-import quizImages from '../constants/quizImages';
 
 export default function PostTestScreen() {
   const questions: Question[] = questionsData.posttest;
@@ -40,12 +40,13 @@ export default function PostTestScreen() {
     }
 
     const score = calculateScore();
-    router.push({
+    router.replace({
       pathname: '/result',
       params: {
         score: score.toString(),
         total: questions.length.toString(),
         type: 'posttest',
+        answers: JSON.stringify(answers),
       },
     });
   };

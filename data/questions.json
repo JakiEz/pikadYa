@@ -259,7 +259,9 @@
         { "label": "ง", "text": "", "image": "pt_q1_4" },
         { "label": "จ", "text": "", "image": "pt_q1_5" }
       ],
-      "correctAnswer": "ก"
+      "correctAnswer": "ก",
+       "explanation": "ตอบ ก เพราะ\nในรูปคือ ลูกผักชีทั้ง 2 หรือ ผักชีล้อม, ผักชีลา อยู่ในพิกัดทศกุลาผล ",
+      "explanationImage": "pt_q16_explain"
     },
     {
       "id": 2,
@@ -271,7 +273,9 @@
         { "label": "ง", "text": "", "image": "pt_q2_4" },
         { "label": "จ", "text": "", "image": "pt_q2_5" }
       ],
-      "correctAnswer": "ข"
+      "correctAnswer": "ข",
+      "explanation": "ตอบ ข เพราะ\nในรูปคือ เกสรบัวหลวง อยู่ใน พิกัดสัตตะเกสรหรือเกสรทั้ง 7",
+      "explanationImage": "pt_q2_explain" 
     },
     {
       "id": 3,
@@ -283,7 +287,9 @@
         { "label": "ง", "text": "โคโรค" },
         { "label": "จ", "text": "กำมะถัน" }
       ],
-      "correctAnswer": "จ"
+      "correctAnswer": "จ",
+      "explanation": "ตอบ จ เพราะ\nกำมะถันคือ ธาตุวัตถุ",
+      "explanationImage": "pt_q3_explain" 
     },
     {
       "id": 4,
@@ -296,7 +302,9 @@
         { "label": "ง", "text": "พิกัดเบญจหอย" },
         { "label": "จ", "text": "พิกัดทศหอย" }
       ],
-      "correctAnswer": "ข"
+      "correctAnswer": "ข",
+      "explanation": "ตอบ ข เพราะ\nหอยแครงอยู่ใน พิกัดเนาวหอย",
+      "explanationImage": "pt_q4_explain" 
     },
     {
       "id": 5,
@@ -308,7 +316,9 @@
         { "label": "ง", "text": "โกฐสอ, โกฐเขมา, โกฐเชียง, โกฐจุฬาลัมพา, โกฐหัวบัว" },
         { "label": "จ", "text": "โกฐสอ, โกฐเขมา, โกฐเชียง, โกฐจุฬาลัมพา, โกฐชฎามังสี" }
       ],
-      "correctAnswer": "ง"
+      "correctAnswer": "ง",
+      "explanation": "ตอบ ง เพราะ\nพิกัดเบญจโกฐ มี โกฐสอ, โกฐเขมา, โกฐเชียง, โกฐจุฬาลัมพา, โกฐหัวบัว  อยู่ในพิกัด",
+      "explanationImage": "pt_q5_explain" 
     },
     {
       "id": 6,
@@ -321,7 +331,9 @@
         { "label": "ง", "text": "พิกัดเบญจกูล" },
         { "label": "จ", "text": "พิกัดตานทั้ง 5" }
       ],
-      "correctAnswer": "ง"
+      "correctAnswer": "ง",
+      "explanation": "ตอบ ง เพราะ\nในรูปภาพคือ ดอกดีปลี อยู่ในพิกัดเบญจกูลร่วมกับ รากช้าพลู เถาสะค้าน รากเจตมูลเพลิงแดง เหง้าขิงแห้ง"
+
     },
     {
       "id": 7,
@@ -333,7 +345,9 @@
         { "label": "ง", "text": "สรรพคุณเภสัช, เภสัชวัตถุ, เภสัชกรรม, คณาเภสัช" },
         { "label": "จ", "text": "เภสัชวัตถุ, อนุมานเภสัช, คณาเภสัช, สรรพคุณเภสัช" }
       ],
-      "correctAnswer": "ง"
+      "correctAnswer": "ง",
+      "explanation": "ตอบ ง",
+      "explanationImage": "pt_q7_explain" 
     },
     {
       "id": 8,
@@ -346,7 +360,9 @@
         { "label": "ง", "text": "แก้อาเจียน" },
         { "label": "จ", "text": "บำรุงกำลัง" }
       ],
-      "correctAnswer": "จ"
+      "correctAnswer": "จ",
+      "explanation": "ตอบ จ เพราะ\nน้ำผึ้ง สรรพคุณ บำรุงกำลัง แก้อ่อนเพลีย สมานแผล",
+      "explanationImage": "pt_q8_explain" 
     },
     {
       "id": 9,
@@ -358,7 +374,9 @@
         { "label": "ง", "text": "4 รส ได้แก่ รสเค็ม รสร้อน รสขม รสเปรี้ยว" },
         { "label": "จ", "text": "3 รส ได้แก่ รสเย็น รสร้อน รสสุขุม" }
       ],
-      "correctAnswer": "จ"
+      "correctAnswer": "จ",
+      "explanation": "ตอบ จ",
+      "explanationImage": "pt_q9_explain" 
     },
     {
       "id": 10,
@@ -371,7 +389,9 @@
         { "label": "ง", "text": "เกสรมะลิ, เกสรลำเจียก, เกสรบุนนาค, เกสรจำปา, เกสรบัวหลวง" },
         { "label": "จ", "text": "เกสรมะลิ, เกสรพิกุล, เกสรบุนนาค, เกสรสารภี, เกสรบัวหลวง" }
       ],
-      "correctAnswer": "จ"
+      "correctAnswer": "จ",
+      "explanation": "ตอบ จ",
+      "explanationImage": "pt_q10_explain" 
     },
     {
       "id": 11,
@@ -383,7 +403,9 @@
         { "label": "ง", "text": "", "image": "pt_q11_4" },
         { "label": "จ", "text": "", "image": "pt_q11_5" }
       ],
-      "correctAnswer": "ค"
+      "correctAnswer": "ค",
+      "explanation": "ตอบ ค เพราะ\nก. คือ ข้าวไรซ์เบอร์รี่\nข. คือ ข้าวเปลือก\nค. คือ เทียนดำ\nง. ถั่วแดง\nจ. ข้าวกล้อง\nดังนั้นข้อ ค คือ เทียนดำ ซึ่งอยู่ในพิกัดสัตตะเทียน",
+      "explanationImage": "pt_q11_explain" 
     },
     {
       "id": 12,
@@ -396,7 +418,8 @@
         { "label": "ง", "text": "เกลือสินเธาว์" },
         { "label": "จ", "text": "เกลือวิธู" }
       ],
-      "correctAnswer": "ก"
+      "correctAnswer": "ก",
+      "explanation": "ตอบ ก เพราะพิกัดเกลือพิเศษ ได้แก่\n• เกลือสมุทร\n• เกลือสุนจาละ\n• เกลือสุวษา\n• เกลือเยาวภา\n• เกลือวิรุ\n• เกลือกะตังบุตร"
     },
     {
       "id": 13,
@@ -408,7 +431,9 @@
         { "label": "ง", "text": "เทียนดำ, เทียนแดง, เทียนขาว, เทียนข้าวสาร, เทียนตาตั๊กแตน" },
         { "label": "จ", "text": "เทียนดำ, เทียนแดง, เทียนขาว, เทียนเขียว, เทียนตากบ" }
       ],
-      "correctAnswer": "ค"
+      "correctAnswer": "ค",
+      "explanation": "ตอบ ค ",
+      "explanationImage": "pt_q13_explain" 
     },
     {
       "id": 14,
@@ -420,7 +445,8 @@
         { "label": "ง", "text": "พิกัดยาที่มีสมุนไพร 9 ชนิด" },
         { "label": "จ", "text": "พิกัดยาที่มีสมุนไพร 10 ชนิด" }
       ],
-      "correctAnswer": "ค"
+      "correctAnswer": "ค",
+      "explanation": "ตอบ ค เพราะ\nสัตตะพิกัด หรือ พิกัดยา 7 สิ่ง คือ การจำกัดจำนวนตัวยาในกลุ่มสมุนไพรหรือวัตถุธาตุจำนวน 7 ชนิด\nซึ่งเป็นส่วนหนึ่งของคณาเภสัชในแผนไทย เพื่อใช้ร่วมกันในตำรับยาเดียว"
     },
     {
       "id": 15,
@@ -432,7 +458,9 @@
         { "label": "ง", "text": "", "image": "pt_q15_4" },
         { "label": "จ", "text": "", "image": "pt_q15_5" }
       ],
-      "correctAnswer": "ง"
+      "correctAnswer": "ง",
+      "explanation": "ตอบ ง ",
+      "explanationImage": "pt_q15_explain" 
     },
     {
       "id": 16,
@@ -444,7 +472,8 @@
         { "label": "ง", "text": "พิกัดยาที่มีสมุนไพร 9 ชนิด" },
         { "label": "จ", "text": "พิกัดยาที่มีสมุนไพร 10 ชนิด" }
       ],
-      "correctAnswer": "ก"
+      "correctAnswer": "ก",
+      "explanation": "ตอบ ก เพราะ\nเบญจพิกัด ในเภสัชกรรมไทย หมายถึง การจำกัดจำนวนตัวยาในกลุ่มจำพวกเดียวกันไว้ 5 อย่าง (เบญจ = 5) เพื่อใช้รวมกันเป็นยาตำรับเดียว เพื่อให้มีสรรพคุณเด่นในเรื่องนั้นๆ"
     },
     {
       "id": 17,
@@ -456,7 +485,9 @@
         { "label": "ง", "text": "เขาสมัน" },
         { "label": "จ", "text": "เขาละมั่ง" }
       ],
-      "correctAnswer": "ค"
+      "correctAnswer": "ค",
+      "explanation": "ตอบ ค ",
+      "explanationImage": "pt_q17_explain" 
     },
     {
       "id": 18,
@@ -469,7 +500,8 @@
         { "label": "ง", "text": "รากคัดลิ้น" },
         { "label": "จ", "text": "รากเพกา" }
       ],
-      "correctAnswer": "ค"
+      "correctAnswer": "ค",
+      "explanation": "ตอบ ค เพราะ\nในรูปคือ รากมะตูม ซึ่งอยู่ในพิกัด พิกัดทศมูลใหญ่"
     },
     {
       "id": 19,
@@ -481,7 +513,9 @@
         { "label": "ง", "text": "บัวขม บัวกินสาย บัวจงกลนี บัวผัน บัวเผื่อน บัวสัตตบุษย์ บัวสัตตบรรณ" },
         { "label": "จ", "text": "บัวขม บัวสัตตบรรณ บัวหลวงขาว บัวหลวงแดง" }
       ],
-      "correctAnswer": "ก"
+      "correctAnswer": "ก",
+      "explanation": "ตอบ ก",
+      "explanationImage": "pt_q19_explain" 
     },
     {
       "id": 20,
@@ -494,7 +528,9 @@
         { "label": "ง", "text": "โกฐพิเศษ" },
         { "label": "จ", "text": "ถูกทั้งข้อ ก และ ง" }
       ],
-      "correctAnswer": "ง"
+      "correctAnswer": "ง",
+      "explanation": "ตอบ ง เพราะ\nพิกัดโกฐพิเศษ มี โกฐกะกลิ้ง, โกฐกักกรา (หรือโกฐกรักกรา) และ โกฐน้ำเต้า",
+      "explanationImage": "pt_q20_explain" 
     }
   ]
 }

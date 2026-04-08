@@ -9,6 +9,8 @@ export interface Question {
     image?: string;
   }[];
   correctAnswer: string;
+  explanation?: string; // ✅ เพิ่ม
+  explanationImage?: string; // ⭐ เพิ่ม
 }
 
 export interface QuizData {

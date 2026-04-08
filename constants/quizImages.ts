@@ -77,6 +77,25 @@ const quizImages: Record<string, any> = {
   pt_q18_0: require('../assets/images/testImage/post-test/q18_0.jpg'),
   // PT Q20 question image
   pt_q20_0: require('../assets/images/testImage/post-test/q20_0.jpg'),
+  // --- EXPLANATION IMAGES ---
+  pt_q11_explain: require('../assets/images/testImage/post-test/q11_explain.jpg'),
+  pt_q13_explain: require('../assets/images/testImage/post-test/q13_explain.jpg'),
+  pt_q19_explain: require('../assets/images/testImage/post-test/q19_explain.jpg'),
+  pt_q20_explain: require('../assets/images/testImage/post-test/q20_explain.jpg'),
+  pt_q2_explain: require('../assets/images/testImage/post-test/q2_explain.jpg'),
+  pt_q3_explain: require('../assets/images/testImage/post-test/q3_explain.jpg'),
+  pt_q4_explain: require('../assets/images/testImage/post-test/q4_explain.jpg'),
+  pt_q5_explain: require('../assets/images/testImage/post-test/q5_explain.jpg'),
+  pt_q7_explain: require('../assets/images/testImage/post-test/q7_explain.jpg'),
+  pt_q8_explain: require('../assets/images/testImage/post-test/q8_explain.jpg'),
+  pt_q9_explain: require('../assets/images/testImage/post-test/q9_explain.jpg'),
+  pt_q10_explain: require('../assets/images/testImage/post-test/q10_explain.jpg'),
+  pt_q15_explain: require('../assets/images/testImage/post-test/q15_explain.jpg'),
+  pt_q16_explain: require('../assets/images/testImage/post-test/q16_explain.jpg'),
+  pt_q17_explain: require('../assets/images/testImage/post-test/q17_explain.jpg'),
+  // pt_q18_explain: require('../assets/images/testImage/post-test/q18_explain.jpg'),
+  
+  
 };
-
+ 
 export default quizImages;
